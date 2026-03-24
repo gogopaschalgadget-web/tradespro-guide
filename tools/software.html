@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Best business software for contractors - job scheduling, invoicing, CRM and project management tools">
+    <title>Best Contractor Software & Business Tools - TradesPro Guide</title>
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Best Contractor Software & Business Tools">
+    <meta property="og:description" content="Recommended business software for contractors - scheduling, invoicing, CRM, job management and more">
+    <meta property="og:url" content="https://tradespro-guide.github.io/tools/software.html">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary">
+
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://tradespro-guide.github.io"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Tools",
+                "item": "https://tradespro-guide.github.io/tools/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Contractor Software",
+                "item": "https://tradespro-guide.github.io/tools/software.html"
+            }
+        ]
+    }
+    </script>
+
+    <!-- Favicon -->
+    <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="/assets/style.css">
+    <style>
+        .tools-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+
+        .product-card {
+            background: #ffffff;
+            border: 2px solid var(--border-color);
+            border-radius: 8px;
+            overflow: hidden;
+            transition: box-shadow 0.3s, transform 0.3s, border-color 0.3s;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+        }
+
+        .product-card:hover {
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+            transform: translateY(-4px);
+            border-color: var(--primary-color);
+        }
+
+        .product-image {
+            width: 100%;
+            height: 200px;
+            background: linear-gradient(135deg, var(--bg-light), #e8e8e8);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 4rem;
+            color: #ccc;
+        }
+
+        .pro-pick-badge {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background: linear-gradient(135deg, #ff6b6b, #ff5252);
+            color: #ffffff;
+            padding: 0.5rem 0.75rem;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            box-shadow: 0 2px 8px rgba(255, 107, 107, 0.3);
+        }
+
+        .product-content {
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+        }
+
+        .product-name {
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: var(--text-dark);
+            margin-bottom: 0.5rem;
+        }
+
+        .product-description {
+            font-size: 0.95rem;
+            color: var(--text-light);
+            line-height: 1.5;
+            margin-bottom: 1rem;
+        }
+
+        .product-why {
+            background-color: var(--bg-light);
+            border-left: 4px solid var(--secondary-color);
+            padding: 0.75rem;
+            margin-bottom: 1rem;
+            border-radius: 3px;
+            font-size: 0.9rem;
+            color: var(--text-dark);
+        }
+
+        .product-why strong {
+            color: var(--secondary-color);
+        }
+
+        .product-rating {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 0.75rem;
+            font-size: 0.9rem;
+            color: var(--text-light);
+        }
+
+        .stars {
+            color: #ffc107;
+            letter-spacing: 2px;
+        }
+
+        .pricing-tier {
+            font-size: 0.9rem;
+            color: var(--text-light);
+            margin-bottom: 1.25rem;
+            margin-top: auto;
+            padding: 0.75rem;
+            background-color: var(--bg-light);
+            border-radius: 4px;
+        }
+
+        .pricing-tier strong {
+            color: var(--text-dark);
+        }
+
+        .software-button {
+            display: block;
+            background: linear-gradient(135deg, var(--primary-color), #0052a3);
+            color: #ffffff;
+            padding: 0.75rem 1.5rem;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: 600;
+            text-align: center;
+            transition: background-color 0.3s, transform 0.2s;
+            border: none;
+            cursor: pointer;
+            font-size: 0.95rem;
+        }
+
+        .software-button:hover {
+            background: #0052a3;
+            transform: translateY(-2px);
+        }
+
+        .breadcrumb {
+            display: flex;
+            gap: 0.5rem;
+            align-items: center;
+            margin-bottom: 2rem;
+            font-size: 0.9rem;
+            color: var(--text-light);
+        }
+
+        .breadcrumb a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+
+        .breadcrumb span {
+            color: var(--text-light);
+        }
+
+        .affiliate-disclosure {
+            background-color: #e3f2fd;
+            border: 1px solid #2196F3;
+            border-radius: 4px;
+            padding: 1rem;
+            margin-bottom: 2rem;
+            color: #333;
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+
+        .affiliate-disclosure strong {
+            color: var(--text-dark);
+        }
+
+        .page-intro {
+            background-color: var(--bg-light);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+            border-left: 4px solid var(--primary-color);
+        }
+
+        .page-intro h2 {
+            font-size: 1.5rem;
+            margin-bottom: 0.75rem;
+            color: var(--text-dark);
+        }
+
+        .page-intro p {
+            color: var(--text-light);
+            line-height: 1.6;
+        }
+
+        @media (max-width: 768px) {
+            .products-grid {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+
+            .breadcrumb {
+                flex-wrap: wrap;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <a href="/" class="logo">TradesPro Guide</a>
+            <nav><ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/tools/">Tools</a></li>
+                <li><a href="/category/plumbing.html">Plumbing</a></li>
+                <li><a href="/category/hvac.html">Hvac</a></li>
+                <li><a href="/category/electrical.html">Electrical</a></li>
+                <li><a href="/category/roofing.html">Roofing</a></li>
+            </ul></nav>
+        </div>
+        <div class="ad-slot" id="ad-header"><!-- Google AdSense code here --></div>
+    </header>
+
+    <main>
+        <div class="tools-container">
+            <nav class="breadcrumb">
+                <a href="/">Home</a>
+                <span>/</span>
+                <a href="/tools/">Tools</a>
+                <span>/</span>
+                <span>Contractor Software</span>
+            </nav>
+
+            <nav class="category-nav">
+                <a href="/tools/">All Tools</a>
+                <a href="/tools/plumbing-tools.html">Plumbing</a>
+                <a href="/tools/electrical-tools.html">Electrical</a>
+                <a href="/tools/hvac-tools.html">HVAC</a>
+                <a href="/tools/power-tools.html">Power Tools</a>
+                <a href="/tools/safety-gear.html">Safety</a>
+                <a href="/tools/software.html" class="active">Software</a>
+            </nav>
+
+            <section class="hero">
+                <div class="container">
+                    <h1>Best Business Software for Contractors</h1>
+                    <p>Job scheduling, invoicing, CRM and project management tools that scale with your business</p>
+                </div>
+            </section>
+
+            <div class="affiliate-disclosure">
+                <strong>Note:</strong> These software recommendations link directly to vendor sites. Some offers may include affiliate partnerships that support TradesPro Guide. This helps us keep our guides free and accessible.
+            </div>
+
+            <div class="page-intro">
+                <h2>Software That Grows With Your Business</h2>
+                <p>Managing a contracting business involves much more than the physical work - you need systems for scheduling, billing, customer relationships, and project tracking. The right software eliminates administrative headaches, helps you win more jobs, and keeps your team organized. We've selected business software that's specifically designed for contractors and proven by thousands of professionals.</p>
+            </div>
+
+            <div class="ad-slot" id="ad-mid-article"><!-- Google AdSense code here --></div>
+
+            <section class="products-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <div class="pro-pick-badge">Pro Pick</div>
+                    <div class="product-image">📱</div>
+                    <div class="product-content">
+                        <h3 class="product-name">ServiceTitan</h3>
+                        <p class="product-description">All-in-one platform for scheduling, dispatching, invoicing, and customer management. Built specifically for home service contractors with mobile apps for technicians and office management.</p>
+                        <div class="product-rating">
+                            <span class="stars">★★★★★</span>
+                            <span>(2,800+ reviews)</span>
+                        </div>
+                        <div class="product-why">
+                            <strong>Best for:</strong> Plumbers, HVAC, electricians and multi-trade companies. Scales from solo operators to large teams.
+                        </div>
+                        <div class="pricing-tier">
+                            <strong>Pricing:</strong> Custom pricing based on team size and features (typically $500-3000+/month)
+                        </div>
+                        <a href="https://www.servicetitan.com/" class="software-button">Visit ServiceTitan</a>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <div class="pro-pick-badge">Pro Pick</div>
+                    <div class="product-image">📅</div>
+                    <div class="product-content">
+                        <h3 class="product-name">Jobber</h3>
+                        <p class="product-description">User-friendly job management software with scheduling, mobile dispatch, estimates, invoicing, and customer database. Designed for simplicity without sacrificing power.</p>
+                        <div class="product-rating">
+                            <span class="stars">★★★★★</span>
+                            <span>(2,100+ reviews)</span>
+                        </div>
+                        <div class="product-why">
+                            <strong>Best for:</strong> Small to mid-sized contracting businesses. Easier learning curve than enterprise platforms.
+                        </div>
+                        <div class="pricing-tier">
+                            <strong>Pricing:</strong> Starting at $600/month for 3 users, scales up to $2000+ for larger teams
+                        </div>
+                        <a href="https://www.jobber.com/" class="software-button">Visit Jobber</a>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <div class="product-image">🏠</div>
+                    <div class="product-content">
+                        <h3 class="product-name">Housecall Pro</h3>
+                        <p class="product-description">Affordable, easy-to-use platform for scheduling, invoicing, and customer management. Mobile app keeps technicians connected in the field with real-time job details.</p>
+                        <div class="product-rating">
+                            <span class="stars">★★★★☀</span>
+                            <span>(1,900+ reviews)</span>
+                        </div>
+                        <div class="product-why">
+                            <strong>Best for:</strong> Solo operators and small teams looking for affordability. Great for service-based contractors.
+                        </div>
+                        <div class="pricing-tier">
+                            <strong>Pricing:</strong> Plans starting at $40/month, scales to $200+ for larger operations with multiple users
+                        </div>
+                        <a href="https://www.housecallpro.com/" class="software-button">Visit Housecall Pro</a>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <div class="product-image">💰</div>
+                    <div class="product-content">
+                        <h3 class="product-name">QuickBooks for Contractors</h3>
+                        <p class="product-description">Industry-specific accounting software with invoicing, expense tracking, and job costing. Integrates with other tools and gives you complete financial visibility.</p>
+                        <div class="product-rating">
+                            <span class="stars">★★★★☀</span>
+                            <span>(3,200+ reviews)</span>
+                        </div>
+                        <div class="product-why">
+                            <strong>Best for:</strong> Businesses that need robust accounting, tax preparation, and financial reporting. Contractors of all sizes.
+                        </div>
+                        <div class="pricing-tier">
+                            <strong>Pricing:</strong> Starts at $30/month for basic, up to $200+ for advanced features and integrations
+                        </div>
+                        <a href="https://quickbooks.intuit.com/" class="software-button">Visit QuickBooks</a>
+                    </div>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="product-card">
+                    <div class="product-image">📸</div>
+                    <div class="product-content">
+                        <h3 class="product-name">CompanyCam</h3>
+                        <p class="product-description">Photo documentation platform for job sites and client communication. Organize photos by project, share with clients, and maintain visual records of all work completed.</p>
+                        <div class="product-rating">
+                            <span class="stars">★★★★★</span>
+                            <span>(1,600+ reviews)</span>
+                        </div>
+                        <div class="product-why">
+                            <strong>Best for:</strong> Any contractor who wants professional photo documentation. Essential for before/after documentation and client approval.
+                        </div>
+                        <div class="pricing-tier">
+                            <strong>Pricing:</strong> Starting at $60/month for single user, team plans from $300+/month
+                        </div>
+                        <a href="https://www.companycam.com/" class="software-button">Visit CompanyCam</a>
+                    </div>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="product-card">
+                    <div class="product-image">🏗️</div>
+                    <div class="product-content">
+                        <h3 class="product-name">Buildertrend</h3>
+                        <p class="product-description">Comprehensive project management platform for contractors and builders. Handles project planning, scheduling, budgeting, punch lists, and owner communication in one place.</p>
+                        <div class="product-rating">
+                            <span class="stars">★★★★☀</span>
+                            <span>(1,400+ reviews)</span>
+                        </div>
+                        <div class="product-why">
+                            <strong>Best for:</strong> General contractors, builders, and larger remodeling companies. Excellent for multi-phase projects and owner communication.
+                        </div>
+                        <div class="pricing-tier">
+                            <strong>Pricing:</strong> Custom pricing based on features needed, typically $150-500+ per month
+                        </div>
+                        <a href="https://www.buildertrend.com/" class="software-button">Visit Buildertrend</a>
+                    </div>
+                </div>
+            </section>
+
+            <div class="ad-slot" id="ad-post-article"><!-- Google AdSense code here --></div>
+
+            <section class="related-posts">
+                <h3>More Tools & Resources</h3>
+                <div class="related-posts-list">
+                    <div class="related-post-item">
+                        <a href="/tools/power-tools.html">Power Tools Guide</a>
+                        <p>Professional power tools for job sites</p>
+                    </div>
+                    <div class="related-post-item">
+                        <a href="/tools/safety-gear.html">Safety Equipment</a>
+                        <p>Essential PPE and safety gear</p>
+                    </div>
+                    <div class="related-post-item">
+                        <a href="/category/contractor.html">Contractor Guides</a>
+                        <p>Business and operations guides</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About</h4>
+                <p>Expert guides for trade professionals and contractors</p>
+            </div>
+            <div class="footer-section">
+                <h4>Tools & Resources</h4>
+                <ul>
+                    <li><a href="/tools/">All Tools</a></li>
+                    <li><a href="/tools/plumbing-tools.html">Plumbing Tools</a></li>
+                    <li><a href="/tools/electrical-tools.html">Electrical Tools</a></li>
+                    <li><a href="/tools/hvac-tools.html">HVAC Tools</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/category/contractor.html">Contractor Guides</a></li>
+                    <li><a href="/sitemap.xml">Sitemap</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 TradesPro Guide. All rights reserved.</p>
+        </div>
+        <div class="ad-slot" id="ad-footer"><!-- Google AdSense code here --></div>
+    </footer>
+</body>
+</html>

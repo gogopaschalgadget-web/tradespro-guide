@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Best HVAC tools for professionals - refrigerant gauges, vacuum pumps, tube cutters and more with affiliate recommendations">
+    <title>Best HVAC Tools for Professionals - TradesPro Guide</title>
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Best HVAC Tools for Professionals">
+    <meta property="og:description" content="Recommended HVAC tools tested by professionals - manifold gauges, vacuum pumps, tube cutters and specialty tools">
+    <meta property="og:url" content="https://tradespro-guide.github.io/tools/hvac-tools.html">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary">
+
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://tradespro-guide.github.io"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Tools",
+                "item": "https://tradespro-guide.github.io/tools/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "HVAC Tools",
+                "item": "https://tradespro-guide.github.io/tools/hvac-tools.html"
+            }
+        ]
+    }
+    </script>
+
+    <!-- Favicon -->
+    <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="/assets/style.css">
+    <style>
+        .tools-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+
+        .product-card {
+            background: #ffffff;
+            border: 2px solid var(--border-color);
+            border-radius: 8px;
+            overflow: hidden;
+            transition: box-shadow 0.3s, transform 0.3s, border-color 0.3s;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+        }
+
+        .product-card:hover {
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+            transform: translateY(-4px);
+            border-color: var(--primary-color);
+        }
+
+        .product-image {
+            width: 100%;
+            height: 200px;
+            background: linear-gradient(135deg, var(--bg-light), #e8e8e8);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 4rem;
+            color: #ccc;
+        }
+
+        .pro-pick-badge {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background: linear-gradient(135deg, #ff6b6b, #ff5252);
+            color: #ffffff;
+            padding: 0.5rem 0.75rem;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            box-shadow: 0 2px 8px rgba(255, 107, 107, 0.3);
+        }
+
+        .product-content {
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+        }
+
+        .product-name {
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: var(--text-dark);
+            margin-bottom: 0.5rem;
+        }
+
+        .product-description {
+            font-size: 0.95rem;
+            color: var(--text-light);
+            line-height: 1.5;
+            margin-bottom: 1rem;
+        }
+
+        .product-why {
+            background-color: var(--bg-light);
+            border-left: 4px solid var(--secondary-color);
+            padding: 0.75rem;
+            margin-bottom: 1rem;
+            border-radius: 3px;
+            font-size: 0.9rem;
+            color: var(--text-dark);
+        }
+
+        .product-why strong {
+            color: var(--secondary-color);
+        }
+
+        .product-rating {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 0.75rem;
+            font-size: 0.9rem;
+            color: var(--text-light);
+        }
+
+        .stars {
+            color: #ffc107;
+            letter-spacing: 2px;
+        }
+
+        .price-range {
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-bottom: 1.25rem;
+            margin-top: auto;
+        }
+
+        .amazon-button {
+            display: block;
+            background: linear-gradient(135deg, #FF9900, #FF9900);
+            color: #ffffff;
+            padding: 0.75rem 1.5rem;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: 600;
+            text-align: center;
+            transition: background-color 0.3s, transform 0.2s;
+            border: none;
+            cursor: pointer;
+            font-size: 0.95rem;
+        }
+
+        .amazon-button:hover {
+            background: #FF8800;
+            transform: translateY(-2px);
+        }
+
+        .breadcrumb {
+            display: flex;
+            gap: 0.5rem;
+            align-items: center;
+            margin-bottom: 2rem;
+            font-size: 0.9rem;
+            color: var(--text-light);
+        }
+
+        .breadcrumb a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+
+        .breadcrumb span {
+            color: var(--text-light);
+        }
+
+        .affiliate-disclosure {
+            background-color: #fff3cd;
+            border: 1px solid #ffc107;
+            border-radius: 4px;
+            padding: 1rem;
+            margin-bottom: 2rem;
+            color: #333;
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+
+        .affiliate-disclosure strong {
+            color: var(--text-dark);
+        }
+
+        .page-intro {
+            background-color: var(--bg-light);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+            border-left: 4px solid var(--primary-color);
+        }
+
+        .page-intro h2 {
+            font-size: 1.5rem;
+            margin-bottom: 0.75rem;
+            color: var(--text-dark);
+        }
+
+        .page-intro p {
+            color: var(--text-light);
+            line-height: 1.6;
+        }
+
+        @media (max-width: 768px) {
+            .products-grid {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+
+            .breadcrumb {
+                flex-wrap: wrap;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <a href="/" class="logo">TradesPro Guide</a>
+            <nav><ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/tools/">Tools</a></li>
+                <li><a href="/category/plumbing.html">Plumbing</a></li>
+                <li><a href="/category/hvac.html">Hvac</a></li>
+                <li><a href="/category/electrical.html">Electrical</a></li>
+                <li><a href="/category/roofing.html">Roofing</a></li>
+            </ul></nav>
+        </div>
+        <div class="ad-slot" id="ad-header"><!-- Google AdSense code here --></div>
+    </header>
+
+    <main>
+        <div class="tools-container">
+            <nav class="breadcrumb">
+                <a href="/">Home</a>
+                <span>/</span>
+                <a href="/tools/">Tools</a>
+                <span>/</span>
+                <span>HVAC Tools</span>
+            </nav>
+
+            <nav class="category-nav">
+                <a href="/tools/">All Tools</a>
+                <a href="/tools/plumbing-tools.html">Plumbing</a>
+                <a href="/tools/electrical-tools.html">Electrical</a>
+                <a href="/tools/hvac-tools.html" class="active">HVAC</a>
+                <a href="/tools/power-tools.html">Power Tools</a>
+                <a href="/tools/safety-gear.html">Safety</a>
+                <a href="/tools/software.html">Software</a>
+            </nav>
+
+            <section class="hero">
+                <div class="container">
+                    <h1>Best HVAC Tools for Professionals</h1>
+                    <p>Tested & recommended tools trusted by HVAC technicians</p>
+                </div>
+            </section>
+
+            <div class="affiliate-disclosure">
+                <strong>Affiliate Disclosure:</strong> As an Amazon Associate, TradesPro Guide earns from qualifying purchases. This helps us keep our guides free and accessible.
+            </div>
+
+            <div class="page-intro">
+                <h2>Professional HVAC Tools You Can Count On</h2>
+                <p>HVAC work requires specialized tools that handle extreme temperatures, refrigerants, and precision measurements. The right equipment isn't just about efficiency - it's about compliance and safety. We've selected HVAC tools that are trusted by certified technicians and proven on thousands of service calls.</p>
+            </div>
+
+            <div class="ad-slot" id="ad-mid-article"><!-- Google AdSense code here --></div>
+
+            <section class="products-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <div class="pro-pick-badge">Pro Pick</div>
+                    <div class="product-image">🌡️</div>
+                    <div class="product-content">
+                        <h3 class="product-name">Refrigerant Manifold Gauge Set</h3>
+                        <p class="product-description">Professional manifold set with accurate pressure gauges for both high and low sides. Color-coded hoses and proper sealing ensure reliable readings on AC and heat pump systems.</p>
+                        <div class="product-rating">
+                            <span class="stars">★★★★★</span>
+                            <span>(2,400+ reviews)</span>
+                        </div>
+                        <div class="product-why">
+                            <strong>Why pros love it:</strong> Accurate pressure readings, 60" hoses, ball shut-off valves, works with all common refrigerants. Essential for diagnostics and charging.
+                        </div>
+                        <div class="price-range">$120-180</div>
+                        <a href="https://www.amazon.com/s?k=refrigerant+manifold+gauge&tag=tradspro-20" class="amazon-button">Check Price on Amazon</a>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <div class="pro-pick-badge">Pro Pick</div>
+                    <div class="product-image">💨</div>
+                    <div class="product-content">
+                        <h3 class="product-name">Vacuum Pump - Oil-Sealed Rotary Vane</h3>
+                        <p class="product-description">Heavy-duty vacuum pump designed to evacuate air and moisture from refrigeration lines. Reaches 2-stage micron levels for proper system dehydration and EPA compliance.</p>
+                        <div class="product-rating">
+                            <span class="stars">★★★★★</span>
+                            <span>(1,900+ reviews)</span>
+                        </div>
+                        <div class="product-why">
+                            <strong>Why pros love it:</strong> Achieves 10-15 microns, durable rotary vane design, includes hoses and filter, portable. Required for EPA compliance on all refrigerant work.
+                        </div>
+                        <div class="price-range">$200-350</div>
+                        <a href="https://www.amazon.com/s?k=vacuum+pump+HVAC&tag=tradspro-20" class="amazon-button">Check Price on Amazon</a>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <div class="product-image">✂️</div>
+                    <div class="product-content">
+                        <h3 class="product-name">Copper Tube Cutter - Professional</h3>
+                        <p class="product-description">Precision tube cutter for copper refrigerant lines. Sharp tungsten carbide wheel makes clean, square cuts that don't require deburring on most applications.</p>
+                        <div class="product-rating">
+                            <span class="stars">★★★★☆</span>
+                            <span>(1,100+ reviews)</span>
+                        </div>
+                        <div class="product-why">
+                            <strong>Why pros love it:</strong> Cuts up to 1 5/8" OD, self-feeding design, hardened blade, compact for tight spaces. Perfect for precision refrigerant line work.
+                        </div>
+                        <div class="price-range">$15-25</div>
+                        <a href="https://www.amazon.com/s?k=copper+tube+cutter&tag=tradspro-20" class="amazon-button">Check Price on Amazon</a>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <div class="product-image">🔧</div>
+                    <div class="product-content">
+                        <h3 class="product-name">Flaring Tool Kit - Manual</h3>
+                        <p class="product-description">Complete flaring tool set for making flared connections on copper tubing. Precision-machined components create strong, leak-free flare connections.</p>
+                        <div class="product-rating">
+                            <span class="stars">★★★★☆</span>
+                            <span>(950+ reviews)</span>
+                        </div>
+                        <div class="product-why">
+                            <strong>Why pros love it:</strong> Works on 3/16" to 7/8" tubing, includes flaring bars, complete kit in storage case. Makes professional-grade flares every time.
+                        </div>
+                        <div class="price-range">$35-55</div>
+                        <a href="https://www.amazon.com/s?k=flaring+tool+kit&tag=tradspro-20" class="amazon-button">Check Price on Amazon</a>
+                    </div>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="product-card">
+                    <div class="product-image">🔍</div>
+                    <div class="product-content">
+                        <h3 class="product-name">Refrigerant Leak Detector</h3>
+                        <p class="product-description">Electronic leak detector that locates refrigerant leaks quickly and accurately. Sensitive sensors pinpoint even micro-leaks that would be invisible to the naked eye.</p>
+                        <div class="product-rating">
+                            <span class="stars">★★★★☆</span>
+                            <span>(1,300+ reviews)</span>
+                        </div>
+                        <div class="product-why">
+                            <strong>Why pros love it:</strong> Sensitivity to 0.3 oz/year leaks, rechargeable battery, audible and visual alarm, works with all refrigerants. Saves diagnostic time significantly.
+                        </div>
+                        <div class="price-range">$100-160</div>
+                        <a href="https://www.amazon.com/s?k=refrigerant+leak+detector&tag=tradspro-20" class="amazon-button">Check Price on Amazon</a>
+                    </div>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="product-card">
+                    <div class="product-image">📊</div>
+                    <div class="product-content">
+                        <h3 class="product-name">HVAC Digital Multimeter</h3>
+                        <p class="product-description">Specialized multimeter with AC/DC voltage, resistance, and microamps measurement. Designed specifically for HVAC troubleshooting and electrical diagnostics on equipment.</p>
+                        <div class="product-rating">
+                            <span class="stars">★★★★☆</span>
+                            <span>(1,450+ reviews)</span>
+                        </div>
+                        <div class="product-why">
+                            <strong>Why pros love it:</strong> True RMS AC voltage, frequency measurement, capacitance testing, CAT III 600V. Essential for electrical diagnostics on HVAC equipment.
+                        </div>
+                        <div class="price-range">$70-110</div>
+                        <a href="https://www.amazon.com/s?k=HVAC+multimeter&tag=tradspro-20" class="amazon-button">Check Price on Amazon</a>
+                    </div>
+                </div>
+
+                <!-- Product 7 -->
+                <div class="product-card">
+                    <div class="product-image">✂️</div>
+                    <div class="product-content">
+                        <h3 class="product-name">Sheet Metal Snips - Aviation Grade</h3>
+                        <p class="product-description">Professional-grade sheet metal snips for cutting ductwork and fittings. Hardened steel blades make clean cuts on thicker gauge materials without dulling.</p>
+                        <div class="product-rating">
+                            <span class="stars">★★★★☆</span>
+                            <span>(850+ reviews)</span>
+                        </div>
+                        <div class="product-why">
+                            <strong>Why pros love it:</strong> Cuts 26-28 gauge material, straight or left/right cuts, compound leverage, comfortable grip. Fast work on ductwork modifications.
+                        </div>
+                        <div class="price-range">$12-20</div>
+                        <a href="https://www.amazon.com/s?k=sheet+metal+snips&tag=tradspro-20" class="amazon-button">Check Price on Amazon</a>
+                    </div>
+                </div>
+
+                <!-- Product 8 -->
+                <div class="product-card">
+                    <div class="product-image">⚡</div>
+                    <div class="product-content">
+                        <h3 class="product-name">Duct Crimper - Professional Tool</h3>
+                        <p class="product-description">Heavy-duty crimper for securing ductwork seams and connections. Creates tight crimps that minimize air leakage and ensure proper duct seal.</p>
+                        <div class="product-rating">
+                            <span class="stars">★★★★☆</span>
+                            <span>(680+ reviews)</span>
+                        </div>
+                        <div class="product-why">
+                            <strong>Why pros love it:</strong> Crimps various duct sizes, durable casting, grip handles, adjustable. Speeds up ductwork installation work significantly.
+                        </div>
+                        <div class="price-range">$25-40</div>
+                        <a href="https://www.amazon.com/s?k=duct+crimper&tag=tradspro-20" class="amazon-button">Check Price on Amazon</a>
+                    </div>
+                </div>
+
+                <!-- Product 9 -->
+                <div class="product-card">
+                    <div class="product-image">🧲</div>
+                    <div class="product-content">
+                        <h3 class="product-name">Magnet-Mount Charging Scale</h3>
+                        <p class="product-description">Digital charging scale with magnet mount for precise refrigerant charging. Accurate to 0.1 oz for proper system charge and performance.</p>
+                        <div class="product-rating">
+                            <span class="stars">★★★★☆</span>
+                            <span>(1,050+ reviews)</span>
+                        </div>
+                        <div class="product-why">
+                            <strong>Why pros love it:</strong> Magnetic mount to recovery machine, 0.1 oz accuracy, auto-shutoff, rechargeable. Eliminates overcharging issues and improves efficiency.
+                        </div>
+                        <div class="price-range">$110-170</div>
+                        <a href="https://www.amazon.com/s?k=charging+scale+HVAC&tag=tradspro-20" class="amazon-button">Check Price on Amazon</a>
+                    </div>
+                </div>
+            </section>
+
+            <div class="ad-slot" id="ad-post-article"><!-- Google AdSense code here --></div>
+
+            <section class="related-posts">
+                <h3>Related Resources</h3>
+                <div class="related-posts-list">
+                    <div class="related-post-item">
+                        <a href="/articles/hvac-maintenance-guide.html">HVAC Maintenance Guide</a>
+                        <p>Comprehensive guide to maintaining HVAC systems year-round</p>
+                    </div>
+                    <div class="related-post-item">
+                        <a href="/tools/safety-gear.html">Safety Equipment Guide</a>
+                        <p>PPE and safety gear for HVAC work</p>
+                    </div>
+                    <div class="related-post-item">
+                        <a href="/tools/power-tools.html">Power Tools Guide</a>
+                        <p>Professional power tools for all trades</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About</h4>
+                <p>Expert guides for trade professionals and contractors</p>
+            </div>
+            <div class="footer-section">
+                <h4>Tools & Resources</h4>
+                <ul>
+                    <li><a href="/tools/">All Tools</a></li>
+                    <li><a href="/tools/plumbing-tools.html">Plumbing Tools</a></li>
+                    <li><a href="/tools/electrical-tools.html">Electrical Tools</a></li>
+                    <li><a href="/tools/software.html">Contractor Software</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/category/hvac.html">HVAC Guides</a></li>
+                    <li><a href="/sitemap.xml">Sitemap</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 TradesPro Guide. All rights reserved.</p>
+        </div>
+        <div class="ad-slot" id="ad-footer"><!-- Google AdSense code here --></div>
+    </footer>
+</body>
+</html>
