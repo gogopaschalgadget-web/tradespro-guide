@@ -1,978 +1,398 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Google Analytics GA4 -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6ZLDKMTPKP"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-6ZLDKMTPKP');
-    </script>
-    <meta charset="UTF-8">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5182415121977508" crossorigin="anonymous"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="TradesPro Guide — Expert-tested tool reviews, buying guides, and trade tips for plumbers, electricians, and HVAC pros. Trusted by 10,000+ professionals.">
-    <title>TradesPro Guide — #1 Tool Reviews for Plumbing, Electrical & HVAC Pros</title>
+<!-- Google Analytics GA4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6ZLDKMTPKP"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-6ZLDKMTPKP');</script>
+<meta charset="UTF-8">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5182415121977508" crossorigin="anonymous"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="TradesPro Guide — Expert resources, cost estimators, and professional tool recommendations for plumbers, electricians, HVAC techs, and contractors.">
+<meta name="keywords" content="plumbing guide, HVAC tools, electrical tips, contractor resources, trades professional">
+<title>TradesPro Guide — Expert Resources for Trade Professionals</title>
+<meta property="og:title" content="TradesPro Guide — Expert Resources for Trade Professionals">
+<meta property="og:description" content="Expert guides, cost estimators, and tool recommendations for trade professionals.">
+<meta property="og:url" content="https://gogopaschalgadget-web.github.io/tradespro-guide/">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+/* ── Reset & Base ── */
+*{margin:0;padding:0;box-sizing:border-box;}
+html{font-size:16px;scroll-behavior:smooth;}
+body{font-family:'Inter',system-ui,-apple-system,sans-serif;color:#1a1a2e;line-height:1.6;background:#fff;}
+a{text-decoration:none;color:inherit;}
+img{max-width:100%;display:block;}
 
-    <!-- Open Graph -->
-    <meta property="og:title" content="TradesPro Guide — Expert Tool Reviews for Trade Professionals">
-    <meta property="og:description" content="Trusted tool reviews, buying guides, and pro tips for plumbing, electrical, HVAC, and construction professionals.">
-    <meta property="og:url" content="https://gogopaschalgadget-web.github.io/tradespro-guide/">
-    <meta property="og:type" content="website">
-    <meta name="twitter:card" content="summary_large_image">
+/* ── Color System ── */
+:root{
+--navy:#0f1b2d;
+--navy-light:#1a2942;
+--blue:#2563eb;
+--blue-light:#3b82f6;
+--orange:#f97316;
+--orange-dark:#ea580c;
+--gold:#fbbf24;
+--green:#16a34a;
+--gray-50:#f8fafc;
+--gray-100:#f1f5f9;
+--gray-200:#e2e8f0;
+--gray-400:#94a3b8;
+--gray-600:#475569;
+--gray-800:#1e293b;
+--radius:8px;
+--shadow-sm:0 1px 3px rgba(0,0,0,0.08);
+--shadow-md:0 4px 12px rgba(0,0,0,0.1);
+--shadow-lg:0 8px 30px rgba(0,0,0,0.12);
+}
 
-    <!-- Schema.org -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "TradesPro Guide",
-        "url": "https://gogopaschalgadget-web.github.io/tradespro-guide/",
-        "description": "Expert-tested tool reviews and buying guides for trade professionals",
-        "sameAs": []
-    }
-    </script>
+/* ── Navigation ── */
+.nav{background:var(--navy);position:sticky;top:0;z-index:100;box-shadow:0 2px 8px rgba(0,0,0,0.15);}
+.nav-inner{max-width:1200px;margin:0 auto;padding:0 1.5rem;display:flex;justify-content:space-between;align-items:center;height:64px;}
+.nav-logo{font-size:1.35rem;font-weight:800;color:#fff;letter-spacing:-0.02em;}
+.nav-logo span{color:var(--orange);}
+.nav-links{display:flex;gap:0.25rem;}
+.nav-links a{color:rgba(255,255,255,0.85);font-size:0.9rem;font-weight:500;padding:0.5rem 0.85rem;border-radius:6px;transition:all 0.2s;}
+.nav-links a:hover{background:rgba(255,255,255,0.1);color:#fff;}
+.nav-links a.active{background:var(--blue);color:#fff;}
+.nav-cta{background:var(--orange);color:#fff;font-weight:600;padding:0.5rem 1.25rem;border-radius:6px;font-size:0.9rem;transition:background 0.2s;}
+.nav-cta:hover{background:var(--orange-dark);}
 
-    <!-- Google Fonts - Poppins (like top-ranking trade sites) -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+/* ── Hero ── */
+.hero{background:linear-gradient(135deg,var(--navy) 0%,var(--navy-light) 50%,#162544 100%);color:#fff;padding:4rem 1.5rem 3.5rem;position:relative;overflow:hidden;}
+.hero::before{content:'';position:absolute;top:-50%;right:-20%;width:600px;height:600px;background:radial-gradient(circle,rgba(37,99,235,0.15),transparent 70%);border-radius:50%;}
+.hero-inner{max-width:1200px;margin:0 auto;position:relative;z-index:1;}
+.hero-badge{display:inline-block;background:rgba(249,115,22,0.15);border:1px solid rgba(249,115,22,0.3);color:var(--orange);font-size:0.8rem;font-weight:600;padding:0.35rem 1rem;border-radius:50px;margin-bottom:1.5rem;letter-spacing:0.02em;}
+.hero h1{font-size:2.75rem;font-weight:800;line-height:1.15;margin-bottom:1rem;letter-spacing:-0.03em;max-width:700px;}
+.hero p{font-size:1.15rem;color:rgba(255,255,255,0.8);max-width:600px;margin-bottom:2rem;line-height:1.7;}
+.hero-buttons{display:flex;gap:1rem;flex-wrap:wrap;}
+.btn{display:inline-flex;align-items:center;gap:0.5rem;font-weight:600;padding:0.85rem 1.75rem;border-radius:var(--radius);font-size:1rem;transition:all 0.2s;cursor:pointer;border:none;}
+.btn-primary{background:var(--orange);color:#fff;}
+.btn-primary:hover{background:var(--orange-dark);transform:translateY(-1px);box-shadow:0 4px 15px rgba(249,115,22,0.3);}
+.btn-secondary{background:rgba(255,255,255,0.1);color:#fff;border:1px solid rgba(255,255,255,0.2);}
+.btn-secondary:hover{background:rgba(255,255,255,0.15);}
 
-    <style>
-        :root {
-            --navy: #0a1628;
-            --teal: #006B7F;
-            --teal-dark: #004860;
-            --orange: #E85A1B;
-            --orange-hover: #D14A0F;
-            --gold: #DFB94E;
-            --light-bg: #F4F6F9;
-            --white: #FFFFFF;
-            --text-dark: #1a1a2e;
-            --text-mid: #4a5568;
-            --text-light: #718096;
-            --border: #E2E8F0;
-            --shadow-sm: 0 1px 3px rgba(0,0,0,0.08);
-            --shadow-md: 0 4px 14px rgba(0,0,0,0.08);
-            --shadow-lg: 0 10px 30px rgba(0,0,0,0.12);
-            --shadow-xl: 0 20px 50px rgba(0,0,0,0.15);
-            --radius: 12px;
-        }
+/* ── Trust Bar ── */
+.trust-bar{background:var(--gray-50);border-bottom:1px solid var(--gray-200);padding:1rem 1.5rem;}
+.trust-inner{max-width:1200px;margin:0 auto;display:flex;justify-content:center;gap:2.5rem;flex-wrap:wrap;}
+.trust-item{display:flex;align-items:center;gap:0.5rem;font-size:0.9rem;color:var(--gray-600);font-weight:500;}
+.trust-icon{font-size:1.2rem;}
 
-        * { margin: 0; padding: 0; box-sizing: border-box; }
+/* ── Section Styles ── */
+.section{padding:3.5rem 1.5rem;}
+.section-inner{max-width:1200px;margin:0 auto;}
+.section-header{text-align:center;margin-bottom:2.5rem;}
+.section-header h2{font-size:1.85rem;font-weight:700;color:var(--navy);letter-spacing:-0.02em;margin-bottom:0.5rem;}
+.section-header p{color:var(--gray-600);font-size:1.05rem;max-width:600px;margin:0 auto;}
+.section-alt{background:var(--gray-50);}
 
-        html { scroll-behavior: smooth; }
+/* ── Service Cards ── */
+.services-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1.5rem;}
+.service-card{background:#fff;border-radius:12px;padding:1.75rem;box-shadow:var(--shadow-sm);border:1px solid var(--gray-200);transition:all 0.25s;cursor:pointer;position:relative;overflow:hidden;}
+.service-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-lg);border-color:var(--blue-light);}
+.service-card::after{content:'';position:absolute;bottom:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--blue),var(--orange));transform:scaleX(0);transition:transform 0.3s;transform-origin:left;}
+.service-card:hover::after{transform:scaleX(1);}
+.service-icon{font-size:2rem;margin-bottom:0.75rem;}
+.service-card h3{font-size:1.1rem;font-weight:700;color:var(--navy);margin-bottom:0.5rem;}
+.service-card p{color:var(--gray-600);font-size:0.9rem;line-height:1.6;}
+.service-link{display:inline-flex;align-items:center;gap:0.25rem;color:var(--blue);font-weight:600;font-size:0.9rem;margin-top:0.75rem;transition:gap 0.2s;}
+.service-link:hover{gap:0.5rem;}
 
-        body {
-            font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-            line-height: 1.7;
-            color: var(--text-dark);
-            background: var(--light-bg);
-            -webkit-font-smoothing: antialiased;
-        }
+/* ── Tools Section ── */
+.tools-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:1.5rem;}
+.tool-card{background:#fff;border-radius:12px;overflow:hidden;box-shadow:var(--shadow-sm);border:1px solid var(--gray-200);transition:all 0.25s;}
+.tool-card:hover{box-shadow:var(--shadow-md);transform:translateY(-2px);}
+.tool-card-header{background:linear-gradient(135deg,var(--blue),var(--navy-light));color:#fff;padding:1.25rem 1.5rem;}
+.tool-card-header h3{font-size:1.1rem;font-weight:700;}
+.tool-card-header p{font-size:0.85rem;opacity:0.85;margin-top:0.25rem;}
+.tool-card-body{padding:1.25rem 1.5rem;}
+.tool-card-body p{color:var(--gray-600);font-size:0.9rem;margin-bottom:1rem;}
+.tool-card .btn{width:100%;justify-content:center;}
 
-        /* ==================== TOP BAR ==================== */
-        .top-bar {
-            background: var(--navy);
-            color: rgba(255,255,255,0.8);
-            font-size: 13px;
-            padding: 8px 20px;
-            display: flex;
-            justify-content: center;
-            gap: 30px;
-            align-items: center;
-        }
-        .top-bar span { display: flex; align-items: center; gap: 6px; }
-        .top-bar i { color: var(--gold); font-size: 12px; }
-        .top-bar .stars { color: var(--gold); letter-spacing: 1px; }
+/* ── Blog Preview ── */
+.blog-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:1.5rem;}
+.blog-card{background:#fff;border-radius:12px;overflow:hidden;box-shadow:var(--shadow-sm);border:1px solid var(--gray-200);transition:all 0.25s;}
+.blog-card:hover{box-shadow:var(--shadow-md);transform:translateY(-3px);}
+.blog-card-top{height:6px;background:linear-gradient(90deg,var(--blue),var(--orange));}
+.blog-card-body{padding:1.25rem 1.5rem;}
+.blog-meta{font-size:0.8rem;color:var(--gray-400);margin-bottom:0.5rem;font-weight:500;}
+.blog-card-body h3{font-size:1.05rem;font-weight:700;color:var(--navy);margin-bottom:0.5rem;line-height:1.4;}
+.blog-card-body h3 a{color:inherit;transition:color 0.2s;}
+.blog-card-body h3 a:hover{color:var(--blue);}
+.blog-card-body p{color:var(--gray-600);font-size:0.9rem;line-height:1.6;}
+.read-more{display:inline-flex;align-items:center;gap:0.25rem;color:var(--blue);font-weight:600;font-size:0.9rem;margin-top:0.75rem;transition:gap 0.2s;}
+.read-more:hover{gap:0.5rem;}
 
-        /* ==================== NAVIGATION ==================== */
-        .navbar {
-            background: var(--teal-dark);
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
-        }
-        .nav-inner {
-            max-width: 1200px;
-            margin: 0 auto;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 0 24px;
-            height: 64px;
-        }
-        .logo {
-            font-size: 22px;
-            font-weight: 800;
-            color: var(--white);
-            text-decoration: none;
-            letter-spacing: -0.5px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-        .logo-icon {
-            background: var(--orange);
-            color: white;
-            width: 36px;
-            height: 36px;
-            border-radius: 8px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 18px;
-        }
-        .nav-links {
-            list-style: none;
-            display: flex;
-            gap: 6px;
-            align-items: center;
-        }
-        .nav-links a {
-            color: rgba(255,255,255,0.9);
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 500;
-            padding: 8px 16px;
-            border-radius: 8px;
-            transition: all 0.25s;
-        }
-        .nav-links a:hover { background: rgba(255,255,255,0.12); color: #fff; }
-        .nav-cta {
-            background: var(--orange) !important;
-            color: white !important;
-            font-weight: 600 !important;
-            padding: 10px 20px !important;
-        }
-        .nav-cta:hover { background: var(--orange-hover) !important; transform: translateY(-1px); }
+/* ── Ad Slot ── */
+.ad-slot{background:var(--gray-50);padding:1rem;text-align:center;margin:2rem 0;border-radius:var(--radius);min-height:90px;}
 
-        /* Mobile menu */
-        .menu-toggle {
-            display: none;
-            background: none;
-            border: none;
-            color: white;
-            font-size: 24px;
-            cursor: pointer;
-            padding: 8px;
-        }
+/* ── CTA Banner ── */
+.cta-banner{background:linear-gradient(135deg,var(--navy),var(--navy-light));color:#fff;padding:3rem 1.5rem;text-align:center;}
+.cta-banner h2{font-size:1.75rem;font-weight:700;margin-bottom:0.75rem;}
+.cta-banner p{color:rgba(255,255,255,0.8);font-size:1.05rem;margin-bottom:1.5rem;max-width:600px;margin-left:auto;margin-right:auto;}
 
-        /* ==================== HERO ==================== */
-        .hero {
-            background: linear-gradient(145deg, var(--navy) 0%, var(--teal-dark) 50%, var(--teal) 100%);
-            color: white;
-            padding: 80px 24px 90px;
-            position: relative;
-            overflow: hidden;
-        }
-        .hero::before {
-            content: '';
-            position: absolute;
-            top: -50%;
-            right: -20%;
-            width: 600px;
-            height: 600px;
-            background: radial-gradient(circle, rgba(232,90,27,0.12) 0%, transparent 70%);
-            border-radius: 50%;
-        }
-        .hero::after {
-            content: '';
-            position: absolute;
-            bottom: -30%;
-            left: -10%;
-            width: 400px;
-            height: 400px;
-            background: radial-gradient(circle, rgba(223,185,78,0.08) 0%, transparent 70%);
-            border-radius: 50%;
-        }
-        .hero-inner {
-            max-width: 900px;
-            margin: 0 auto;
-            text-align: center;
-            position: relative;
-            z-index: 2;
-        }
-        .hero-badge {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            background: rgba(255,255,255,0.1);
-            border: 1px solid rgba(255,255,255,0.15);
-            border-radius: 50px;
-            padding: 8px 20px;
-            font-size: 13px;
-            font-weight: 600;
-            margin-bottom: 28px;
-            backdrop-filter: blur(10px);
-        }
-        .hero-badge .stars { color: var(--gold); }
-        .hero h1 {
-            font-size: 48px;
-            font-weight: 900;
-            line-height: 1.15;
-            margin-bottom: 20px;
-            letter-spacing: -1.5px;
-        }
-        .hero h1 .accent { color: var(--gold); }
-        .hero .subtitle {
-            font-size: 18px;
-            line-height: 1.7;
-            opacity: 0.9;
-            max-width: 650px;
-            margin: 0 auto 36px;
-            font-weight: 400;
-        }
-        .hero-ctas {
-            display: flex;
-            gap: 16px;
-            justify-content: center;
-            flex-wrap: wrap;
-        }
-        .btn-primary {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            background: var(--orange);
-            color: white;
-            text-decoration: none;
-            padding: 16px 32px;
-            border-radius: 10px;
-            font-size: 16px;
-            font-weight: 700;
-            transition: all 0.3s;
-            box-shadow: 0 4px 15px rgba(232,90,27,0.35);
-        }
-        .btn-primary:hover { background: var(--orange-hover); transform: translateY(-2px); box-shadow: 0 6px 20px rgba(232,90,27,0.45); }
-        .btn-secondary {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            background: rgba(255,255,255,0.1);
-            border: 2px solid rgba(255,255,255,0.3);
-            color: white;
-            text-decoration: none;
-            padding: 14px 28px;
-            border-radius: 10px;
-            font-size: 16px;
-            font-weight: 600;
-            transition: all 0.3s;
-        }
-        .btn-secondary:hover { background: rgba(255,255,255,0.18); border-color: rgba(255,255,255,0.5); }
+/* ── Footer ── */
+.footer{background:var(--navy);color:rgba(255,255,255,0.7);padding:3rem 1.5rem 1.5rem;}
+.footer-inner{max-width:1200px;margin:0 auto;}
+.footer-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:2rem;margin-bottom:2rem;}
+.footer-col h4{color:#fff;font-size:0.95rem;font-weight:700;margin-bottom:1rem;}
+.footer-col a{display:block;color:rgba(255,255,255,0.6);font-size:0.9rem;padding:0.25rem 0;transition:color 0.2s;}
+.footer-col a:hover{color:var(--orange);}
+.footer-bottom{border-top:1px solid rgba(255,255,255,0.1);padding-top:1.5rem;text-align:center;font-size:0.85rem;}
 
-        /* ==================== TRUST BAR ==================== */
-        .trust-bar {
-            background: var(--white);
-            border-bottom: 3px solid var(--orange);
-            padding: 0;
-            box-shadow: var(--shadow-md);
-            position: relative;
-            z-index: 5;
-        }
-        .trust-inner {
-            max-width: 1200px;
-            margin: 0 auto;
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            text-align: center;
-        }
-        .trust-item {
-            padding: 28px 16px;
-            border-right: 1px solid var(--border);
-        }
-        .trust-item:last-child { border-right: none; }
-        .trust-number {
-            font-size: 28px;
-            font-weight: 800;
-            color: var(--teal-dark);
-            line-height: 1.2;
-        }
-        .trust-label {
-            font-size: 13px;
-            color: var(--text-light);
-            font-weight: 500;
-            margin-top: 4px;
-        }
+/* ── Mobile ── */
+@media(max-width:768px){
+.nav-links{display:none;}
+.hero h1{font-size:2rem;}
+.hero p{font-size:1rem;}
+.hero-buttons{flex-direction:column;}
+.btn{width:100%;justify-content:center;}
+.trust-inner{gap:1.25rem;}
+.trust-item{font-size:0.8rem;}
+.services-grid,.tools-grid,.blog-grid{grid-template-columns:1fr;}
+.footer-grid{grid-template-columns:1fr 1fr;}
+}
 
-        /* ==================== SECTION STYLES ==================== */
-        .section {
-            padding: 80px 24px;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-        .section-header {
-            text-align: center;
-            margin-bottom: 50px;
-        }
-        .section-header .label {
-            display: inline-block;
-            background: rgba(0,107,127,0.08);
-            color: var(--teal);
-            font-size: 12px;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            padding: 6px 16px;
-            border-radius: 50px;
-            margin-bottom: 16px;
-        }
-        .section-header h2 {
-            font-size: 36px;
-            font-weight: 800;
-            color: var(--text-dark);
-            margin-bottom: 14px;
-            letter-spacing: -0.5px;
-            line-height: 1.2;
-        }
-        .section-header p {
-            font-size: 16px;
-            color: var(--text-mid);
-            max-width: 600px;
-            margin: 0 auto;
-        }
-
-        /* ==================== CATEGORY CARDS ==================== */
-        .categories-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 24px;
-        }
-        .cat-card {
-            background: var(--white);
-            border-radius: var(--radius);
-            overflow: hidden;
-            box-shadow: var(--shadow-sm);
-            border: 1px solid var(--border);
-            transition: all 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-            text-decoration: none;
-            color: inherit;
-            display: flex;
-            flex-direction: column;
-        }
-        .cat-card:hover {
-            box-shadow: var(--shadow-xl);
-            transform: translateY(-8px);
-            border-color: var(--orange);
-        }
-        .cat-card-img {
-            height: 160px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 56px;
-            position: relative;
-        }
-        .cat-plumbing { background: linear-gradient(135deg, #0d4f6b, #0a7e8c); }
-        .cat-electrical { background: linear-gradient(135deg, #1a1a3e, #3d348b); }
-        .cat-hvac { background: linear-gradient(135deg, #1b4332, #2d6a4f); }
-        .cat-power { background: linear-gradient(135deg, #7f1d1d, #b91c1c); }
-        .cat-safety { background: linear-gradient(135deg, #78350f, #b45309); }
-        .cat-software { background: linear-gradient(135deg, #312e81, #4338ca); }
-        .cat-card-img .count-badge {
-            position: absolute;
-            top: 12px;
-            right: 12px;
-            background: rgba(0,0,0,0.4);
-            backdrop-filter: blur(6px);
-            color: white;
-            font-size: 11px;
-            font-weight: 600;
-            padding: 4px 10px;
-            border-radius: 20px;
-        }
-        .cat-card-body {
-            padding: 24px;
-            flex-grow: 1;
-            display: flex;
-            flex-direction: column;
-        }
-        .cat-card-body h3 {
-            font-size: 18px;
-            font-weight: 700;
-            color: var(--text-dark);
-            margin-bottom: 8px;
-        }
-        .cat-card-body p {
-            font-size: 14px;
-            color: var(--text-mid);
-            flex-grow: 1;
-            margin-bottom: 16px;
-            line-height: 1.6;
-        }
-        .cat-card-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 6px;
-            color: var(--orange);
-            font-size: 14px;
-            font-weight: 600;
-            transition: gap 0.3s;
-        }
-        .cat-card:hover .cat-card-link { gap: 10px; }
-
-        /* ==================== WHY TRUST US ==================== */
-        .why-trust {
-            background: var(--white);
-            padding: 80px 24px;
-        }
-        .trust-features {
-            max-width: 1200px;
-            margin: 0 auto;
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 40px;
-        }
-        .trust-feature {
-            text-align: center;
-            padding: 40px 24px;
-            border-radius: var(--radius);
-            transition: all 0.3s;
-        }
-        .trust-feature:hover { background: var(--light-bg); }
-        .trust-feature-icon {
-            width: 72px;
-            height: 72px;
-            margin: 0 auto 20px;
-            background: linear-gradient(135deg, var(--teal-dark), var(--teal));
-            border-radius: 18px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 30px;
-            color: white;
-        }
-        .trust-feature h3 {
-            font-size: 18px;
-            font-weight: 700;
-            color: var(--text-dark);
-            margin-bottom: 10px;
-        }
-        .trust-feature p {
-            font-size: 14px;
-            color: var(--text-mid);
-            line-height: 1.7;
-        }
-
-        /* ==================== FEATURED ARTICLES ==================== */
-        .articles-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 24px;
-        }
-        .article-card {
-            background: var(--white);
-            border-radius: var(--radius);
-            overflow: hidden;
-            box-shadow: var(--shadow-sm);
-            border: 1px solid var(--border);
-            transition: all 0.35s;
-            text-decoration: none;
-            color: inherit;
-        }
-        .article-card:hover {
-            box-shadow: var(--shadow-lg);
-            transform: translateY(-4px);
-        }
-        .article-img {
-            height: 180px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 48px;
-            background: linear-gradient(135deg, #f0f4f8, #e2e8f0);
-        }
-        .article-body {
-            padding: 24px;
-        }
-        .article-tag {
-            display: inline-block;
-            background: rgba(0,107,127,0.08);
-            color: var(--teal);
-            font-size: 11px;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            padding: 4px 10px;
-            border-radius: 4px;
-            margin-bottom: 12px;
-        }
-        .article-body h3 {
-            font-size: 17px;
-            font-weight: 700;
-            color: var(--text-dark);
-            margin-bottom: 8px;
-            line-height: 1.4;
-        }
-        .article-body p {
-            font-size: 13px;
-            color: var(--text-mid);
-            line-height: 1.6;
-        }
-
-        /* ==================== BROWSE BY TRADE ==================== */
-        .trades-section {
-            background: linear-gradient(145deg, var(--navy), var(--teal-dark));
-            padding: 80px 24px;
-            color: white;
-        }
-        .trades-section .section-header .label {
-            background: rgba(255,255,255,0.1);
-            color: rgba(255,255,255,0.9);
-        }
-        .trades-section .section-header h2 { color: white; }
-        .trades-section .section-header p { color: rgba(255,255,255,0.7); }
-        .trades-grid {
-            max-width: 1200px;
-            margin: 0 auto;
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 20px;
-        }
-        .trade-btn {
-            display: flex;
-            align-items: center;
-            gap: 14px;
-            background: rgba(255,255,255,0.06);
-            border: 1px solid rgba(255,255,255,0.12);
-            border-radius: var(--radius);
-            padding: 20px 24px;
-            color: white;
-            text-decoration: none;
-            font-weight: 600;
-            font-size: 15px;
-            transition: all 0.3s;
-        }
-        .trade-btn:hover {
-            background: rgba(255,255,255,0.12);
-            border-color: var(--orange);
-            transform: translateY(-3px);
-        }
-        .trade-btn i {
-            font-size: 22px;
-            width: 28px;
-            text-align: center;
-            color: var(--gold);
-        }
-
-        /* ==================== CTA BANNER ==================== */
-        .cta-banner {
-            background: var(--orange);
-            padding: 60px 24px;
-            text-align: center;
-            color: white;
-        }
-        .cta-banner h2 {
-            font-size: 32px;
-            font-weight: 800;
-            margin-bottom: 12px;
-        }
-        .cta-banner p {
-            font-size: 17px;
-            opacity: 0.95;
-            margin-bottom: 28px;
-            max-width: 550px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        .cta-banner .btn-white {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            background: white;
-            color: var(--orange);
-            text-decoration: none;
-            padding: 16px 36px;
-            border-radius: 10px;
-            font-size: 16px;
-            font-weight: 700;
-            transition: all 0.3s;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.15);
-        }
-        .cta-banner .btn-white:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0,0,0,0.2); }
-
-        /* ==================== FOOTER ==================== */
-        footer {
-            background: var(--navy);
-            color: rgba(255,255,255,0.7);
-            padding: 60px 24px 30px;
-        }
-        .footer-inner {
-            max-width: 1200px;
-            margin: 0 auto;
-            display: grid;
-            grid-template-columns: 2fr 1fr 1fr 1fr;
-            gap: 40px;
-            margin-bottom: 40px;
-        }
-        .footer-brand p {
-            font-size: 14px;
-            line-height: 1.7;
-            margin-top: 12px;
-        }
-        .footer-col h4 {
-            color: white;
-            font-size: 14px;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            margin-bottom: 18px;
-        }
-        .footer-col a {
-            display: block;
-            color: rgba(255,255,255,0.6);
-            text-decoration: none;
-            font-size: 14px;
-            padding: 4px 0;
-            transition: color 0.3s;
-        }
-        .footer-col a:hover { color: var(--gold); }
-        .footer-bottom {
-            max-width: 1200px;
-            margin: 0 auto;
-            border-top: 1px solid rgba(255,255,255,0.1);
-            padding-top: 24px;
-            display: flex;
-            justify-content: space-between;
-            font-size: 13px;
-        }
-
-        /* ==================== AD SLOTS ==================== */
-        .ad-slot {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 16px 24px;
-            text-align: center;
-        }
-
-        /* ==================== RESPONSIVE ==================== */
-        @media (max-width: 1024px) {
-            .categories-grid, .trust-features, .articles-grid { grid-template-columns: repeat(2, 1fr); }
-            .trades-grid { grid-template-columns: repeat(2, 1fr); }
-            .footer-inner { grid-template-columns: 1fr 1fr; }
-        }
-        @media (max-width: 768px) {
-            .top-bar { font-size: 11px; gap: 12px; flex-wrap: wrap; }
-            .menu-toggle { display: block; }
-            .nav-links {
-                display: none;
-                position: absolute;
-                top: 64px;
-                left: 0;
-                right: 0;
-                background: var(--teal-dark);
-                flex-direction: column;
-                padding: 16px;
-                gap: 4px;
-                box-shadow: 0 8px 20px rgba(0,0,0,0.3);
-            }
-            .nav-links.open { display: flex; }
-            .nav-links a { width: 100%; padding: 12px 16px; }
-            .hero { padding: 50px 20px 60px; }
-            .hero h1 { font-size: 32px; }
-            .hero .subtitle { font-size: 16px; }
-            .hero-ctas { flex-direction: column; align-items: center; }
-            .trust-inner { grid-template-columns: repeat(2, 1fr); }
-            .trust-item { padding: 20px 12px; }
-            .trust-number { font-size: 22px; }
-            .categories-grid, .articles-grid { grid-template-columns: 1fr; }
-            .trust-features { grid-template-columns: 1fr; gap: 20px; }
-            .trades-grid { grid-template-columns: 1fr; }
-            .section { padding: 50px 16px; }
-            .section-header h2 { font-size: 28px; }
-            .footer-inner { grid-template-columns: 1fr; gap: 24px; }
-            .footer-bottom { flex-direction: column; gap: 8px; text-align: center; }
-            .cta-banner h2 { font-size: 26px; }
-        }
-    </style>
+/* ── Hamburger (mobile) ── */
+.hamburger{display:none;background:none;border:none;color:#fff;font-size:1.5rem;cursor:pointer;}
+@media(max-width:768px){.hamburger{display:block;}}
+</style>
 </head>
 <body>
-    <!-- Top Bar -->
-    <div class="top-bar">
-        <span><span class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span> &nbsp;Trusted by 10,000+ Pros</span>
-        <span><i class="fas fa-check-circle"></i> Expert-Tested Reviews</span>
-        <span><i class="fas fa-shield-alt"></i> Independent & Unbiased</span>
-    </div>
 
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-inner">
-            <a href="/" class="logo">
-                <span class="logo-icon"><i class="fas fa-tools"></i></span>
-                TradesPro
-            </a>
-            <button class="menu-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')" aria-label="Toggle menu">
-                <i class="fas fa-bars"></i>
-            </button>
-            <ul class="nav-links">
-                <li><a href="/tradespro-guide/tools/">Tool Reviews</a></li>
-                <li><a href="/tradespro-guide/articles/">Guides</a></li>
-                <li><a href="/tradespro-guide/blog/">Blog</a></li>
-                <li><a href="/tradespro-guide/tools/" class="nav-cta">Browse All Tools <i class="fas fa-arrow-right"></i></a></li>
-            </ul>
-        </div>
-    </nav>
+<!-- Navigation -->
+<nav class="nav">
+<div class="nav-inner">
+<a href="/tradespro-guide/" class="nav-logo">Trades<span>Pro</span></a>
+<div class="nav-links">
+<a href="/tradespro-guide/" class="active">Home</a>
+<a href="/tradespro-guide/tools/">Tools</a>
+<a href="/tradespro-guide/blog/">Blog</a>
+<a href="/tradespro-guide/category/plumbing.html">Plumbing</a>
+<a href="/tradespro-guide/category/hvac.html">HVAC</a>
+<a href="/tradespro-guide/category/electrical.html">Electrical</a>
+</div>
+<a href="/tradespro-guide/tools/" class="nav-cta">Free Tools &rarr;</a>
+<button class="hamburger" onclick="document.querySelector('.nav-links').style.display=document.querySelector('.nav-links').style.display==='flex'?'none':'flex'">&#9776;</button>
+</div>
+</nav>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-inner">
-            <div class="hero-badge">
-                <span class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
-                Rated #1 Tool Review Site for Trades
-            </div>
-            <h1>The Right Tools Make<br>the <span class="accent">Right Pro</span></h1>
-            <p class="subtitle">Expert-tested reviews, honest comparisons, and buying guides for plumbing, electrical, HVAC, and construction professionals.</p>
-            <div class="hero-ctas">
-                <a href="/tradespro-guide/tools/" class="btn-primary"><i class="fas fa-search"></i> Browse Tool Reviews</a>
-                <a href="/tradespro-guide/blog/" class="btn-secondary"><i class="fas fa-book-open"></i> Read Pro Tips</a>
-            </div>
-        </div>
-    </section>
+<!-- Hero -->
+<section class="hero">
+<div class="hero-inner">
+<div class="hero-badge">Trusted by Trade Professionals</div>
+<h1>Expert Resources for Plumbers, HVAC Techs & Electricians</h1>
+<p>Free cost estimators, inspection checklists, professional tool recommendations, and expert guides to help you grow your business and serve your customers better.</p>
+<div class="hero-buttons">
+<a href="/tradespro-guide/tools/plumbing-cost-estimator.html" class="btn btn-primary">Try Cost Estimator</a>
+<a href="/tradespro-guide/blog/" class="btn btn-secondary">Read the Blog &rarr;</a>
+</div>
+</div>
+</section>
 
-    <!-- Trust Bar -->
-    <div class="trust-bar">
-        <div class="trust-inner">
-            <div class="trust-item">
-                <div class="trust-number">200+</div>
-                <div class="trust-label">Tools Reviewed</div>
-            </div>
-            <div class="trust-item">
-                <div class="trust-number">6</div>
-                <div class="trust-label">Trade Categories</div>
-            </div>
-            <div class="trust-item">
-                <div class="trust-number">50+</div>
-                <div class="trust-label">Buying Guides</div>
-            </div>
-            <div class="trust-item">
-                <div class="trust-number">10K+</div>
-                <div class="trust-label">Monthly Readers</div>
-            </div>
-        </div>
-    </div>
+<!-- Trust Bar -->
+<div class="trust-bar">
+<div class="trust-inner">
+<div class="trust-item"><span class="trust-icon">&#9733;</span> Expert-Reviewed Content</div>
+<div class="trust-item"><span class="trust-icon">&#128736;</span> Built for Working Pros</div>
+<div class="trust-item"><span class="trust-icon">&#128200;</span> Free Cost Estimators</div>
+<div class="trust-item"><span class="trust-icon">&#128214;</span> Updated for 2026</div>
+<div class="trust-item"><span class="trust-icon">&#9989;</span> 100% Free Tools</div>
+</div>
+</div>
 
-    <!-- Ad Slot -->
-    <div class="ad-slot">
-        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5182415121977508" data-ad-slot="auto" data-ad-format="auto" data-full-width-responsive="true"></ins>
-        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-    </div>
+<!-- Ad Slot -->
+<div class="ad-slot">
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5182415121977508" data-ad-slot="auto" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
 
-    <!-- Tool Categories -->
-    <section class="section">
-        <div class="section-header">
-            <span class="label">Tool Reviews</span>
-            <h2>Shop by Trade Category</h2>
-            <p>Hand-picked, expert-tested tools for every trade. Find the right equipment for your next job.</p>
-        </div>
-        <div class="categories-grid">
-            <a href="/tradespro-guide/tools/plumbing-tools.html" class="cat-card">
-                <div class="cat-card-img cat-plumbing">
-                    <span class="count-badge">47 Products</span>
-                    &#128295;
-                </div>
-                <div class="cat-card-body">
-                    <h3>Plumbing Tools</h3>
-                    <p>Pipe wrenches, drain snakes, soldering kits, PEX crimpers, and everything pros need for residential and commercial jobs.</p>
-                    <span class="cat-card-link">View Reviews <i class="fas fa-arrow-right"></i></span>
-                </div>
-            </a>
-            <a href="/tradespro-guide/tools/electrical-tools.html" class="cat-card">
-                <div class="cat-card-img cat-electrical">
-                    <span class="count-badge">38 Products</span>
-                    &#9889;
-                </div>
-                <div class="cat-card-body">
-                    <h3>Electrical Tools</h3>
-                    <p>Multimeters, wire strippers, conduit benders, voltage testers, and professional-grade electrical equipment.</p>
-                    <span class="cat-card-link">View Reviews <i class="fas fa-arrow-right"></i></span>
-                </div>
-            </a>
-            <a href="/tradespro-guide/tools/hvac-tools.html" class="cat-card">
-                <div class="cat-card-img cat-hvac">
-                    <span class="count-badge">32 Products</span>
-                    &#10052;&#65039;
-                </div>
-                <div class="cat-card-body">
-                    <h3>HVAC Tools</h3>
-                    <p>Manifold gauges, recovery machines, vacuum pumps, leak detectors, and refrigerant scales for HVAC technicians.</p>
-                    <span class="cat-card-link">View Reviews <i class="fas fa-arrow-right"></i></span>
-                </div>
-            </a>
-            <a href="/tradespro-guide/tools/power-tools.html" class="cat-card">
-                <div class="cat-card-img cat-power">
-                    <span class="count-badge">45 Products</span>
-                    &#128296;
-                </div>
-                <div class="cat-card-body">
-                    <h3>Power Tools</h3>
-                    <p>Drills, impact drivers, saws, rotary hammers, and cordless systems from Milwaukee, DeWalt, and Makita.</p>
-                    <span class="cat-card-link">View Reviews <i class="fas fa-arrow-right"></i></span>
-                </div>
-            </a>
-            <a href="/tradespro-guide/tools/safety-gear.html" class="cat-card">
-                <div class="cat-card-img cat-safety">
-                    <span class="count-badge">28 Products</span>
-                    &#129521;
-                </div>
-                <div class="cat-card-body">
-                    <h3>Safety Gear</h3>
-                    <p>Hard hats, safety glasses, gloves, fall protection, respirators, and high-visibility clothing for job sites.</p>
-                    <span class="cat-card-link">View Reviews <i class="fas fa-arrow-right"></i></span>
-                </div>
-            </a>
-            <a href="/tradespro-guide/tools/software.html" class="cat-card">
-                <div class="cat-card-img cat-software">
-                    <span class="count-badge">15 Products</span>
-                    &#128187;
-                </div>
-                <div class="cat-card-body">
-                    <h3>Business Software</h3>
-                    <p>Invoicing, scheduling, estimating, and field management apps that help you run your trade business smarter.</p>
-                    <span class="cat-card-link">View Reviews <i class="fas fa-arrow-right"></i></span>
-                </div>
-            </a>
-        </div>
-    </section>
+<!-- Services / Categories -->
+<section class="section">
+<div class="section-inner">
+<div class="section-header">
+<h2>Browse by Trade</h2>
+<p>Find expert guides, tool recommendations, and cost information for your specialty</p>
+</div>
+<div class="services-grid">
+<a href="/tradespro-guide/category/plumbing.html" class="service-card">
+<div class="service-icon">&#128682;</div>
+<h3>Plumbing</h3>
+<p>Water heater guides, pipe repair tips, cost breakdowns, and the best plumbing tools reviewed by pros.</p>
+<span class="service-link">Explore Plumbing &rarr;</span>
+</a>
+<a href="/tradespro-guide/category/hvac.html" class="service-card">
+<div class="service-icon">&#10052;</div>
+<h3>HVAC</h3>
+<p>Maintenance checklists, refrigerant guides, system sizing, and seasonal tune-up best practices.</p>
+<span class="service-link">Explore HVAC &rarr;</span>
+</a>
+<a href="/tradespro-guide/category/electrical.html" class="service-card">
+<div class="service-icon">&#9889;</div>
+<h3>Electrical</h3>
+<p>Wiring guides, code compliance tips, safety equipment, and electrical troubleshooting resources.</p>
+<span class="service-link">Explore Electrical &rarr;</span>
+</a>
+<a href="/tradespro-guide/category/roofing.html" class="service-card">
+<div class="service-icon">&#127968;</div>
+<h3>Roofing</h3>
+<p>Material comparisons, repair vs replace guides, estimate templates, and weather-proofing advice.</p>
+<span class="service-link">Explore Roofing &rarr;</span>
+</a>
+<a href="/tradespro-guide/category/contractor.html" class="service-card">
+<div class="service-icon">&#128188;</div>
+<h3>Business</h3>
+<p>Pricing strategies, marketing tips, client communication templates, and small business growth guides.</p>
+<span class="service-link">Explore Business &rarr;</span>
+</a>
+<a href="/tradespro-guide/tools/" class="service-card">
+<div class="service-icon">&#128295;</div>
+<h3>Tools & Equipment</h3>
+<p>Expert-reviewed tool recommendations with real pro insights. Find the right tools for every job.</p>
+<span class="service-link">Browse Tools &rarr;</span>
+</a>
+</div>
+</div>
+</section>
 
-    <!-- Why Trust Us -->
-    <section class="why-trust">
-        <div class="section-header">
-            <span class="label">Why TradesPro</span>
-            <h2>Built for Pros, by Pros</h2>
-            <p>We test tools the way tradespeople actually use them — on real job sites, not in a lab.</p>
-        </div>
-        <div class="trust-features">
-            <div class="trust-feature">
-                <div class="trust-feature-icon"><i class="fas fa-clipboard-check"></i></div>
-                <h3>Hands-On Testing</h3>
-                <p>Every tool is evaluated in real-world conditions. We test durability, ergonomics, battery life, and value so you can buy with confidence.</p>
-            </div>
-            <div class="trust-feature">
-                <div class="trust-feature-icon"><i class="fas fa-balance-scale"></i></div>
-                <h3>Honest Comparisons</h3>
-                <p>No pay-to-play rankings. We compare tools head-to-head and call out the winners and losers. You deserve the truth before spending your money.</p>
-            </div>
-            <div class="trust-feature">
-                <div class="trust-feature-icon"><i class="fas fa-hard-hat"></i></div>
-                <h3>Trade Experience</h3>
-                <p>Our reviewers are licensed tradespeople with decades of field experience. We know what works because we use these tools every day.</p>
-            </div>
-        </div>
-    </section>
+<!-- Free Tools -->
+<section class="section section-alt">
+<div class="section-inner">
+<div class="section-header">
+<h2>Free Professional Tools</h2>
+<p>Save time and impress clients with our free estimators and checklists</p>
+</div>
+<div class="tools-grid">
+<div class="tool-card">
+<div class="tool-card-header">
+<h3>Plumbing Cost Estimator</h3>
+<p>Instant ballpark pricing for 8 common jobs</p>
+</div>
+<div class="tool-card-body">
+<p>Select the job type, property type, region, and urgency to get a professional cost estimate. Includes recommended tools from Amazon with pro reviews.</p>
+<a href="/tradespro-guide/tools/plumbing-cost-estimator.html" class="btn btn-primary">Open Estimator &rarr;</a>
+</div>
+</div>
+<div class="tool-card">
+<div class="tool-card-header">
+<h3>Plumbing Inspection Checklist</h3>
+<p>40+ items across 5 system areas</p>
+</div>
+<div class="tool-card-body">
+<p>Comprehensive inspection checklist covering water supply, drainage, fixtures, water heaters, and outdoor systems. Print-friendly with interactive checkboxes.</p>
+<a href="/tradespro-guide/tools/free-plumbing-checklist.html" class="btn btn-primary">Open Checklist &rarr;</a>
+</div>
+</div>
+<div class="tool-card">
+<div class="tool-card-header">
+<h3>Pro Tool Recommendations</h3>
+<p>Expert picks for every trade</p>
+</div>
+<div class="tool-card-body">
+<p>Browse our curated selection of professional-grade tools reviewed by working tradespeople. Plumbing, electrical, HVAC, and more.</p>
+<a href="/tradespro-guide/tools/" class="btn btn-primary">Browse All Tools &rarr;</a>
+</div>
+</div>
+</div>
+</div>
+</section>
 
-    <!-- Ad Slot -->
-    <div class="ad-slot">
-        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5182415121977508" data-ad-slot="auto" data-ad-format="auto" data-full-width-responsive="true"></ins>
-        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-    </div>
+<!-- Ad Slot -->
+<div class="ad-slot">
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5182415121977508" data-ad-slot="auto" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
 
-    <!-- Featured Articles -->
-    <section class="section">
-        <div class="section-header">
-            <span class="label">Latest Guides</span>
-            <h2>Pro Tips & Buying Guides</h2>
-            <p>In-depth articles to help you work smarter, save money, and stay safe on the job.</p>
-        </div>
-        <div class="articles-grid">
-            <a href="/tradespro-guide/blog/water-heater-warning-signs.html" class="article-card">
-                <div class="article-img" style="background: linear-gradient(135deg, #fee2e2, #fecaca);">&#128293;</div>
-                <div class="article-body">
-                    <span class="article-tag">Plumbing</span>
-                    <h3>7 Warning Signs Your Water Heater Is About to Fail</h3>
-                    <p>Know the red flags before it's too late. Save thousands by catching problems early.</p>
-                </div>
-            </a>
-            <a href="/tradespro-guide/blog/diy-vs-pro-cost-comparison.html" class="article-card">
-                <div class="article-img" style="background: linear-gradient(135deg, #dbeafe, #bfdbfe);">&#128176;</div>
-                <div class="article-body">
-                    <span class="article-tag">Business</span>
-                    <h3>DIY vs. Hiring a Pro: The Real Cost Breakdown</h3>
-                    <p>When does DIY actually save money? We crunch the numbers on common home repairs.</p>
-                </div>
-            </a>
-            <a href="/tradespro-guide/blog/hvac-spring-maintenance-checklist.html" class="article-card">
-                <div class="article-img" style="background: linear-gradient(135deg, #d1fae5, #a7f3d0);">&#127793;</div>
-                <div class="article-body">
-                    <span class="article-tag">HVAC</span>
-                    <h3>Spring HVAC Maintenance Checklist for 2026</h3>
-                    <p>The complete 15-point inspection checklist every HVAC tech should follow this season.</p>
-                </div>
-            </a>
-        </div>
-    </section>
+<!-- Latest Blog Posts -->
+<section class="section">
+<div class="section-inner">
+<div class="section-header">
+<h2>Latest from the Blog</h2>
+<p>Expert tips, cost guides, and industry insights updated regularly</p>
+</div>
+<div class="blog-grid">
+<div class="blog-card">
+<div class="blog-card-top"></div>
+<div class="blog-card-body">
+<div class="blog-meta">March 2026 &middot; Plumbing &middot; 6 min</div>
+<h3><a href="/tradespro-guide/blog/5-signs-water-heater-failing.html">5 Signs Your Water Heater Is About to Fail</a></h3>
+<p>Catch these early warning signs before your water heater leaves you with a flooded basement and a $3,000 bill.</p>
+<a href="/tradespro-guide/blog/5-signs-water-heater-failing.html" class="read-more">Read More &rarr;</a>
+</div>
+</div>
+<div class="blog-card">
+<div class="blog-card-top"></div>
+<div class="blog-card-body">
+<div class="blog-meta">March 2026 &middot; Business &middot; 5 min</div>
+<h3><a href="/tradespro-guide/blog/diy-vs-hiring-plumber-cost.html">DIY vs. Hiring a Plumber: The Real Cost Breakdown</a></h3>
+<p>We crunch the numbers on 8 common plumbing jobs to show when DIY saves money and when calling a pro is smarter.</p>
+<a href="/tradespro-guide/blog/diy-vs-hiring-plumber-cost.html" class="read-more">Read More &rarr;</a>
+</div>
+</div>
+<div class="blog-card">
+<div class="blog-card-top"></div>
+<div class="blog-card-body">
+<div class="blog-meta">March 2026 &middot; HVAC &middot; 7 min</div>
+<h3><a href="/tradespro-guide/blog/hvac-spring-maintenance-checklist.html">The Complete Spring HVAC Maintenance Checklist for 2026</a></h3>
+<p>Step-by-step checklist covering everything from filter changes to refrigerant checks for the cooling season.</p>
+<a href="/tradespro-guide/blog/hvac-spring-maintenance-checklist.html" class="read-more">Read More &rarr;</a>
+</div>
+</div>
+</div>
+<div style="text-align:center;margin-top:2rem;">
+<a href="/tradespro-guide/blog/" class="btn btn-secondary" style="color:var(--blue);border-color:var(--blue);">View All Blog Posts &rarr;</a>
+</div>
+</div>
+</section>
 
-    <!-- Browse by Trade -->
-    <section class="trades-section">
-        <div class="section-header">
-            <span class="label">Find Your Trade</span>
-            <h2>Browse by Profession</h2>
-            <p>Jump straight to tools and guides curated for your specific trade.</p>
-        </div>
-        <div class="trades-grid">
-            <a href="/tradespro-guide/tools/plumbing-tools.html" class="trade-btn"><i class="fas fa-faucet"></i> Plumbing</a>
-            <a href="/tradespro-guide/tools/electrical-tools.html" class="trade-btn"><i class="fas fa-bolt"></i> Electrical</a>
-            <a href="/tradespro-guide/tools/hvac-tools.html" class="trade-btn"><i class="fas fa-fan"></i> HVAC</a>
-            <a href="/tradespro-guide/tools/power-tools.html" class="trade-btn"><i class="fas fa-hammer"></i> General Contracting</a>
-            <a href="/tradespro-guide/tools/safety-gear.html" class="trade-btn"><i class="fas fa-hard-hat"></i> Safety & PPE</a>
-            <a href="/tradespro-guide/tools/software.html" class="trade-btn"><i class="fas fa-laptop"></i> Business Tools</a>
-            <a href="/tradespro-guide/blog/" class="trade-btn"><i class="fas fa-book"></i> Pro Tips Blog</a>
-            <a href="/tradespro-guide/tools/" class="trade-btn"><i class="fas fa-th-large"></i> All Categories</a>
-        </div>
-    </section>
+<!-- CTA Banner -->
+<section class="cta-banner">
+<h2>Ready to Level Up Your Trade Business?</h2>
+<p>Free tools, expert guides, and professional recommendations — everything you need to grow.</p>
+<a href="/tradespro-guide/tools/" class="btn btn-primary">Explore Free Tools &rarr;</a>
+</section>
 
-    <!-- CTA Banner -->
-    <section class="cta-banner">
-        <h2>Ready to Upgrade Your Toolkit?</h2>
-        <p>Browse expert-tested reviews and find the best tools at the best prices.</p>
-        <a href="/tradespro-guide/tools/" class="btn-white"><i class="fas fa-search"></i> Start Browsing</a>
-    </section>
+<!-- Ad Slot -->
+<div class="ad-slot">
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5182415121977508" data-ad-slot="auto" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
 
-    <!-- Ad Slot -->
-    <div class="ad-slot" style="padding: 20px 24px;">
-        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5182415121977508" data-ad-slot="auto" data-ad-format="auto" data-full-width-responsive="true"></ins>
-        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-    </div>
+<!-- Footer -->
+<footer class="footer">
+<div class="footer-inner">
+<div class="footer-grid">
+<div class="footer-col">
+<h4>Trades<span style="color:var(--orange);">Pro</span> Guide</h4>
+<p style="font-size:0.85rem;line-height:1.6;">Expert resources for trade professionals. Free tools, guides, and recommendations to help you grow your business.</p>
+</div>
+<div class="footer-col">
+<h4>Categories</h4>
+<a href="/tradespro-guide/category/plumbing.html">Plumbing</a>
+<a href="/tradespro-guide/category/hvac.html">HVAC</a>
+<a href="/tradespro-guide/category/electrical.html">Electrical</a>
+<a href="/tradespro-guide/category/roofing.html">Roofing</a>
+<a href="/tradespro-guide/category/contractor.html">Business</a>
+</div>
+<div class="footer-col">
+<h4>Free Tools</h4>
+<a href="/tradespro-guide/tools/plumbing-cost-estimator.html">Cost Estimator</a>
+<a href="/tradespro-guide/tools/free-plumbing-checklist.html">Inspection Checklist</a>
+<a href="/tradespro-guide/tools/">All Tools</a>
+</div>
+<div class="footer-col">
+<h4>Resources</h4>
+<a href="/tradespro-guide/blog/">Blog</a>
+<a href="/tradespro-guide/">Home</a>
+</div>
+</div>
+<div class="footer-bottom">
+<p>&copy; 2026 TradesPro Guide. All rights reserved. Expert resources for trade professionals.</p>
+</div>
+</div>
+</footer>
 
-    <!-- Footer -->
-    <footer>
-        <div class="footer-inner">
-            <div class="footer-brand">
-                <a href="/tradespro-guide/" class="logo" style="margin-bottom: 4px;">
-                    <span class="logo-icon"><i class="fas fa-tools"></i></span>
-                    TradesPro
-                </a>
-                <p>Your trusted source for professional trade tool reviews, buying guides, and expert tips. We help plumbers, electricians, HVAC techs, and contractors find the right tools for every job.</p>
-            </div>
-            <div class="footer-col">
-                <h4>Tool Reviews</h4>
-                <a href="/tradespro-guide/tools/plumbing-tools.html">Plumbing Tools</a>
-                <a href="/tradespro-guide/tools/electrical-tools.html">Electrical Tools</a>
-                <a href="/tradespro-guide/tools/hvac-tools.html">HVAC Tools</a>
-                <a href="/tradespro-guide/tools/power-tools.html">Power Tools</a>
-                <a href="/tradespro-guide/tools/safety-gear.html">Safety Gear</a>
-                <a href="/tradespro-guide/tools/software.html">Software</a>
-            </div>
-            <div class="footer-col">
-                <h4>Resources</h4>
-                <a href="/tradespro-guide/blog/">Pro Tips Blog</a>
-                <a href="/tradespro-guide/articles/">Trade Guides</a>
-                <a href="/tradespro-guide/tools/plumbing-basics-101.html">Plumbing 101</a>
-                <a href="/tradespro-guide/tools/electrical-safety-checklist.html">Safety Checklist</a>
-                <a href="/tradespro-guide/tools/hvac-maintenance-guide.html">HVAC Guide</a>
-            </div>
-            <div class="footer-col">
-                <h4>Company</h4>
-                <a href="/tradespro-guide/">Home</a>
-                <a href="/tradespro-guide/blog/">Blog</a>
-                <a href="/tradespro-guide/tools/">All Tools</a>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <span>&copy; 2026 TradesPro Guide. All rights reserved.</span>
-            <span>Expert tool reviews for trade professionals.</span>
-        </div>
-    </footer>
 </body>
 </html>
