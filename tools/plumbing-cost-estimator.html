@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get instant plumbing job cost estimates for 2026. Free calculator for leak repair, pipe replacement, drain cleaning, water heater installation, and more.">
+    <meta name="keywords" content="plumbing cost estimator, plumbing prices 2026, plumbing repair costs">
+    <title>Free Plumbing Job Cost Estimator 2026 | TradesPro</title>
+    
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5182415121977508" crossorigin="anonymous"></script>
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Plumbing Job Cost Estimator",
+        "description": "Free online plumbing job cost estimator for instant pricing",
+        "url": "https://gogopaschalgadget-web.github.io/tradespro-guide/tools/plumbing-cost-estimator.html",
+        "applicationCategory": "UtilityApplication",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        }
+    }
+    </script>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: #e0e0e0;
+            line-height: 1.6;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #0f3460;
+            border-radius: 12px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            padding: 40px;
+            margin-bottom: 40px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        h1 {
+            color: #e94560;
+            font-size: 2.2em;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #a0a0a0;
+            font-size: 1em;
+        }
+        
+        .form-group {
+            margin-bottom: 25px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #64d5ff;
+            font-weight: 600;
+            font-size: 0.95em;
+        }
+        
+        select {
+            width: 100%;
+            padding: 12px;
+            background: #16213e;
+            border: 2px solid #64d5ff;
+            color: #e0e0e0;
+            border-radius: 6px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: border-color 0.3s;
+        }
+        
+        select:hover {
+            border-color: #e94560;
+        }
+        
+        select:focus {
+            outline: none;
+            border-color: #e94560;
+        }
+        
+        button {
+            width: 100%;
+            padding: 14px;
+            background: linear-gradient(135deg, #e94560 0%, #ff6b6b 100%);
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 1.1em;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+            margin-top: 15px;
+        }
+        
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(233, 69, 96, 0.4);
+        }
+        
+        .result {
+            display: none;
+            margin-top: 30px;
+            padding: 25px;
+            background: #16213e;
+            border-left: 4px solid #64d5ff;
+            border-radius: 6px;
+        }
+        
+        .result.show {
+            display: block;
+            animation: slideIn 0.3s ease;
+        }
+        
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .estimate-header {
+            color: #64d5ff;
+            font-size: 1.1em;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+        
+        .cost-range {
+            font-size: 2em;
+            color: #e94560;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        
+        .job-details {
+            background: #0f3460;
+            padding: 15px;
+            border-radius: 6px;
+            margin-bottom: 20px;
+            font-size: 0.95em;
+            color: #e0e0e0;
+        }
+        
+        .job-details p {
+            margin-bottom: 8px;
+        }
+        
+        .job-details strong {
+            color: #64d5ff;
+        }
+        
+        .tools-section {
+            margin-top: 30px;
+            padding-top: 25px;
+            border-top: 1px solid #64d5ff;
+        }
+        
+        .tools-title {
+            color: #64d5ff;
+            font-size: 1.2em;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+        
+        .tool-links {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 12px;
+        }
+        
+        .tool-link {
+            background: #0f3460;
+            padding: 12px 15px;
+            border-radius: 6px;
+            border-left: 3px solid #e94560;
+            transition: all 0.3s;
+        }
+        
+        .tool-link:hover {
+            background: #1a2c3f;
+            transform: translateX(5px);
+        }
+        
+        .tool-link a {
+            color: #64d5ff;
+            text-decoration: none;
+            font-weight: 500;
+            display: inline-block;
+        }
+        
+        .tool-link a:hover {
+            color: #e94560;
+            text-decoration: underline;
+        }
+        
+        .footer {
+            text-align: center;
+            color: #a0a0a0;
+            margin-top: 30px;
+            font-size: 0.9em;
+        }
+        
+        .footer a {
+            color: #64d5ff;
+            text-decoration: none;
+        }
+        
+        .footer a:hover {
+            color: #e94560;
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 1.8em;
+            }
+            
+            .cost-range {
+                font-size: 1.6em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>💰 Plumbing Cost Estimator</h1>
+            <p class="subtitle">Get instant pricing estimates for common plumbing jobs</p>
+        </header>
+        
+        <form id="estimatorForm">
+            <div class="form-group">
+                <label for="jobType">Job Type</label>
+                <select id="jobType" required>
+                    <option value="">Select a job type...</option>
+                    <option value="leak">Leak Repair</option>
+                    <option value="pipe">Pipe Replacement</option>
+                    <option value="drain">Drain Cleaning</option>
+                    <option value="heater">Water Heater Installation</option>
+                    <option value="faucet">Faucet Replacement</option>
+                    <option value="toilet">Toilet Repair</option>
+                    <option value="sewer">Sewer Line Repair</option>
+                    <option value="disposal">Garbage Disposal Installation</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="propertyType">Property Type</label>
+                <select id="propertyType" required>
+                    <option value="">Select property type...</option>
+                    <option value="residential">Residential</option>
+                    <option value="commercial">Commercial</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="region">Region</label>
+                <select id="region" required>
+                    <option value="">Select region...</option>
+                    <option value="northeast">Northeast</option>
+                    <option value="southeast">Southeast</option>
+                    <option value="midwest">Midwest</option>
+                    <option value="southwest">Southwest</option>
+                    <option value="west">West Coast</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="urgency">Urgency</label>
+                <select id="urgency" required>
+                    <option value="">Select urgency...</option>
+                    <option value="standard">Standard (2-3 business days)</option>
+                    <option value="sameday">Same-Day Service</option>
+                    <option value="emergency">Emergency (24/7)</option>
+                </select>
+            </div>
+            
+            <button type="submit">Get Estimate</button>
+        </form>
+        
+        <div id="result" class="result">
+            <div class="estimate-header">Estimated Cost Range</div>
+            <div class="cost-range" id="costRange"></div>
+            <div class="job-details" id="jobDetails"></div>
+            <div class="tools-section">
+                <div class="tools-title">Recommended Tools for This Job</div>
+                <div class="tool-links" id="toolLinks"></div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>Need professional help? <a href="https://gogopaschalgadget-web.github.io/tradespro-guide/">Back to TradesPro Home</a></p>
+            <p style="margin-top: 10px; font-size: 0.85em; color: #808080;">Estimates are based on 2026 market data. Actual costs may vary by location and contractor.</p>
+        </div>
+    </div>
+    
+    <script>
+        const costData = {
+            leak: {
+                base: { low: 150, high: 400 },
+                tools: [
+                    { name: "Adjustable Wrench Set", asin: "B00MWTPUJI" },
+                    { name: "Pipe Tape & Sealant Kit", asin: "B07JG7N9L1" },
+                    { name: "Leak Detection Dye", asin: "B08DVKQX98" }
+                ]
+            },
+            pipe: {
+                base: { low: 300, high: 1200 },
+                tools: [
+                    { name: "Pipe Wrench 18-inch", asin: "B000BQRTBY" },
+                    { name: "Tubing Cutter", asin: "B005F2KZ6K" },
+                    { name: "Propane Torch Kit", asin: "B07CY82L5D" },
+                    { name: "Pipe Threading Set", asin: "B00AQWZJKC" }
+                ]
+            },
+            drain: {
+                base: { low: 100, high: 350 },
+                tools: [
+                    { name: "Professional Drain Snake", asin: "B00CBKZPAW" },
+                    { name: "Plunger Set", asin: "B01N3OYDAO" },
+                    { name: "Drain Auger", asin: "B08R7QZGTG" }
+                ]
+            },
+            heater: {
+                base: { low: 800, high: 2500 },
+                tools: [
+                    { name: "Pipe Wrench Set", asin: "B089LZKCPD" },
+                    { name: "Temperature Gauge", asin: "B07XJ6DPQ8" },
+                    { name: "Dielectric Union Kit", asin: "B075PWR73M" },
+                    { name: "Water Heater Drain Valve", asin: "B00M1LR0RG" }
+                ]
+            },
+            faucet: {
+                base: { low: 150, high: 500 },
+                tools: [
+                    { name: "Faucet Installation Kit", asin: "B08R7S3QKC" },
+                    { name: "Basin Wrench", asin: "B000BQTX28" },
+                    { name: "Adjustable Wrench", asin: "B00MWTPUJI" }
+                ]
+            },
+            toilet: {
+                base: { low: 100, high: 400 },
+                tools: [
+                    { name: "Toilet Flapper Kit", asin: "B00009TKXX" },
+                    { name: "Plunger", asin: "B01N3OYDAO" },
+                    { name: "Toilet Fill Valve", asin: "B00HS51BVK" }
+                ]
+            },
+            sewer: {
+                base: { low: 2000, high: 8000 },
+                tools: [
+                    { name: "Professional Sewer Snake", asin: "B00CBKZPAW" },
+                    { name: "Camera Inspection System", asin: "B08R7STMQX" },
+                    { name: "Heavy Duty Pipe Wrench", asin: "B089LZKCPD" }
+                ]
+            },
+            disposal: {
+                base: { low: 200, high: 600 },
+                tools: [
+                    { name: "Garbage Disposal Unit", asin: "B08R7VWQMK" },
+                    { name: "Pipe Wrench Set", asin: "B089LZKCPD" },
+                    { name: "Mounting Bolts Kit", asin: "B07JG7N9L1" }
+                ]
+            }
+        };
+        
+        const regionMultipliers = {
+            northeast: 1.2,
+            southeast: 0.95,
+            midwest: 0.9,
+            southwest: 1.05,
+            west: 1.25
+        };
+        
+        const urgencyMultipliers = {
+            standard: 1.0,
+            sameday: 1.5,
+            emergency: 2.0
+        };
+        
+        const propertyMultipliers = {
+            residential: 1.0,
+            commercial: 1.5
+        };
+        
+        document.getElementById('estimatorForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const jobType = document.getElementById('jobType').value;
+            const property = document.getElementById('propertyType').value;
+            const region = document.getElementById('region').value;
+            const urgency = document.getElementById('urgency').value;
+            
+            const jobData = costData[jobType];
+            const regionMult = regionMultipliers[region];
+            const urgencyMult = urgencyMultipliers[urgency];
+            const propertyMult = propertyMultipliers[property];
+            
+            const low = Math.round(jobData.base.low * regionMult * propertyMult * urgencyMult);
+            const high = Math.round(jobData.base.high * regionMult * propertyMult * urgencyMult);
+            
+            document.getElementById('costRange').textContent = `$${low.toLocaleString()} - $${high.toLocaleString()}`;
+            
+            const jobNames = {
+                leak: 'Leak Repair',
+                pipe: 'Pipe Replacement',
+                drain: 'Drain Cleaning',
+                heater: 'Water Heater Installation',
+                faucet: 'Faucet Replacement',
+                toilet: 'Toilet Repair',
+                sewer: 'Sewer Line Repair',
+                disposal: 'Garbage Disposal Installation'
+            };
+            
+            const regionNames = {
+                northeast: 'Northeast',
+                southeast: 'Southeast',
+                midwest: 'Midwest',
+                southwest: 'Southwest',
+                west: 'West Coast'
+            };
+            
+            const urgencyNames = {
+                standard: 'Standard (2-3 business days)',
+                sameday: 'Same-Day Service',
+                emergency: 'Emergency (24/7)'
+            };
+            
+            let details = `
+                <p><strong>Job Type:</strong> ${jobNames[jobType]}</p>
+                <p><strong>Property Type:</strong> ${property.charAt(0).toUpperCase() + property.slice(1)}</p>
+                <p><strong>Region:</strong> ${regionNames[region]}</p>
+                <p><strong>Service Level:</strong> ${urgencyNames[urgency]}</p>
+            `;
+            
+            document.getElementById('jobDetails').innerHTML = details;
+            
+            let toolHTML = '';
+            jobData.tools.forEach(tool => {
+                const amazonUrl = `https://www.amazon.com/dp/${tool.asin}?tag=tradspro20-20`;
+                toolHTML += `<div class="tool-link"><a href="${amazonUrl}" target="_blank">${tool.name} (Amazon)</a></div>`;
+            });
+            
+            document.getElementById('toolLinks').innerHTML = toolHTML;
+            document.getElementById('result').classList.add('show');
+        });
+    </script>
+</body>
+</html>
