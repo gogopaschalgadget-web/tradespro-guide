@@ -12,12 +12,30 @@
 <title>TradesPro Guide — Expert Resources for Trade Professionals</title>
 <meta property="og:title" content="TradesPro Guide — Expert Resources for Trade Professionals">
 <meta property="og:description" content="Expert guides, cost estimators, and tool recommendations for trade professionals.">
+<meta property="og:image" content="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=1200&q=80">
 <meta property="og:url" content="https://gogopaschalgadget-web.github.io/tradespro-guide/">
 <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=1200&q=80">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<!-- Schema.org Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "TradesPro Guide",
+  "url": "https://gogopaschalgadget-web.github.io/tradespro-guide/",
+  "logo": "https://gogopaschalgadget-web.github.io/tradespro-guide/logo.png",
+  "description": "Expert resources, cost estimators, and professional tool recommendations for trade professionals",
+  "sameAs": [
+    "https://gogopaschalgadget-web.github.io/tradespro-guide/blog/"
+  ]
+}
+</script>
+
 <style>
 /* ── Reset & Base ── */
 *{margin:0;padding:0;box-sizing:border-box;}
@@ -60,19 +78,30 @@ img{max-width:100%;display:block;}
 .nav-cta{background:var(--orange);color:#fff;font-weight:600;padding:0.5rem 1.25rem;border-radius:6px;font-size:0.9rem;transition:background 0.2s;}
 .nav-cta:hover{background:var(--orange-dark);}
 
-/* ── Hero ── */
-.hero{background:linear-gradient(135deg,var(--navy) 0%,var(--navy-light) 50%,#162544 100%);color:#fff;padding:4rem 1.5rem 3.5rem;position:relative;overflow:hidden;}
-.hero::before{content:'';position:absolute;top:-50%;right:-20%;width:600px;height:600px;background:radial-gradient(circle,rgba(37,99,235,0.15),transparent 70%);border-radius:50%;}
-.hero-inner{max-width:1200px;margin:0 auto;position:relative;z-index:1;}
-.hero-badge{display:inline-block;background:rgba(249,115,22,0.15);border:1px solid rgba(249,115,22,0.3);color:var(--orange);font-size:0.8rem;font-weight:600;padding:0.35rem 1rem;border-radius:50px;margin-bottom:1.5rem;letter-spacing:0.02em;}
-.hero h1{font-size:2.75rem;font-weight:800;line-height:1.15;margin-bottom:1rem;letter-spacing:-0.03em;max-width:700px;}
-.hero p{font-size:1.15rem;color:rgba(255,255,255,0.8);max-width:600px;margin-bottom:2rem;line-height:1.7;}
+/* ── Hero with Background Image ── */
+.hero{
+  background:linear-gradient(135deg,rgba(15,27,45,0.75) 0%,rgba(26,41,66,0.8) 50%,rgba(22,37,68,0.75) 100%),
+            url('https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=1400&q=80') center/cover;
+  color:#fff;
+  padding:5rem 1.5rem 4rem;
+  position:relative;
+  overflow:hidden;
+  min-height:500px;
+  display:flex;
+  align-items:center;
+  background-attachment:fixed;
+}
+.hero::before{content:'';position:absolute;top:-50%;right:-20%;width:600px;height:600px;background:radial-gradient(circle,rgba(37,99,235,0.1),transparent 70%);border-radius:50%;}
+.hero-inner{max-width:1200px;margin:0 auto;position:relative;z-index:1;width:100%;}
+.hero-badge{display:inline-block;background:rgba(249,115,22,0.2);border:1px solid rgba(249,115,22,0.5);color:#fbbf24;font-size:0.8rem;font-weight:700;padding:0.5rem 1.2rem;border-radius:50px;margin-bottom:1.5rem;letter-spacing:0.02em;text-transform:uppercase;}
+.hero h1{font-size:2.75rem;font-weight:800;line-height:1.15;margin-bottom:1rem;letter-spacing:-0.03em;max-width:700px;text-shadow:0 2px 4px rgba(0,0,0,0.3);}
+.hero p{font-size:1.15rem;color:rgba(255,255,255,0.9);max-width:600px;margin-bottom:2rem;line-height:1.7;text-shadow:0 1px 2px rgba(0,0,0,0.2);}
 .hero-buttons{display:flex;gap:1rem;flex-wrap:wrap;}
 .btn{display:inline-flex;align-items:center;gap:0.5rem;font-weight:600;padding:0.85rem 1.75rem;border-radius:var(--radius);font-size:1rem;transition:all 0.2s;cursor:pointer;border:none;}
 .btn-primary{background:var(--orange);color:#fff;}
-.btn-primary:hover{background:var(--orange-dark);transform:translateY(-1px);box-shadow:0 4px 15px rgba(249,115,22,0.3);}
-.btn-secondary{background:rgba(255,255,255,0.1);color:#fff;border:1px solid rgba(255,255,255,0.2);}
-.btn-secondary:hover{background:rgba(255,255,255,0.15);}
+.btn-primary:hover{background:var(--orange-dark);transform:translateY(-2px);box-shadow:0 6px 20px rgba(249,115,22,0.35);}
+.btn-secondary{background:rgba(255,255,255,0.15);color:#fff;border:2px solid rgba(255,255,255,0.3);}
+.btn-secondary:hover{background:rgba(255,255,255,0.25);border-color:#fff;}
 
 /* ── Trust Bar ── */
 .trust-bar{background:var(--gray-50);border-bottom:1px solid var(--gray-200);padding:1rem 1.5rem;}
@@ -88,42 +117,58 @@ img{max-width:100%;display:block;}
 .section-header p{color:var(--gray-600);font-size:1.05rem;max-width:600px;margin:0 auto;}
 .section-alt{background:var(--gray-50);}
 
-/* ── Service Cards ── */
+/* ── Service Cards with Images ── */
 .services-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1.5rem;}
-.service-card{background:#fff;border-radius:12px;padding:1.75rem;box-shadow:var(--shadow-sm);border:1px solid var(--gray-200);transition:all 0.25s;cursor:pointer;position:relative;overflow:hidden;}
+.service-card{background:#fff;border-radius:12px;overflow:hidden;box-shadow:var(--shadow-sm);border:1px solid var(--gray-200);transition:all 0.25s;cursor:pointer;position:relative;display:flex;flex-direction:column;}
 .service-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-lg);border-color:var(--blue-light);}
+.service-card-image{width:100%;height:200px;object-fit:cover;background:linear-gradient(135deg,var(--blue),var(--navy-light));}
+.service-card-content{padding:1.5rem;flex:1;display:flex;flex-direction:column;}
 .service-card::after{content:'';position:absolute;bottom:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--blue),var(--orange));transform:scaleX(0);transition:transform 0.3s;transform-origin:left;}
 .service-card:hover::after{transform:scaleX(1);}
-.service-icon{font-size:2rem;margin-bottom:0.75rem;}
+.service-icon{font-size:1.8rem;margin-bottom:0.75rem;}
 .service-card h3{font-size:1.1rem;font-weight:700;color:var(--navy);margin-bottom:0.5rem;}
-.service-card p{color:var(--gray-600);font-size:0.9rem;line-height:1.6;}
+.service-card p{color:var(--gray-600);font-size:0.9rem;line-height:1.6;flex:1;}
 .service-link{display:inline-flex;align-items:center;gap:0.25rem;color:var(--blue);font-weight:600;font-size:0.9rem;margin-top:0.75rem;transition:gap 0.2s;}
 .service-link:hover{gap:0.5rem;}
 
-/* ── Tools Section ── */
+/* ── Tools Section with Images ── */
 .tools-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:1.5rem;}
-.tool-card{background:#fff;border-radius:12px;overflow:hidden;box-shadow:var(--shadow-sm);border:1px solid var(--gray-200);transition:all 0.25s;}
-.tool-card:hover{box-shadow:var(--shadow-md);transform:translateY(-2px);}
-.tool-card-header{background:linear-gradient(135deg,var(--blue),var(--navy-light));color:#fff;padding:1.25rem 1.5rem;}
+.tool-card{background:#fff;border-radius:12px;overflow:hidden;box-shadow:var(--shadow-sm);border:1px solid var(--gray-200);transition:all 0.25s;display:flex;flex-direction:column;}
+.tool-card:hover{box-shadow:var(--shadow-md);transform:translateY(-3px);}
+.tool-card-image{width:100%;height:180px;object-fit:cover;background:linear-gradient(135deg,var(--blue),var(--navy-light));}
+.tool-card-header{color:#fff;padding:1.5rem;flex:1;display:flex;flex-direction:column;justify-content:flex-start;}
 .tool-card-header h3{font-size:1.1rem;font-weight:700;}
-.tool-card-header p{font-size:0.85rem;opacity:0.85;margin-top:0.25rem;}
-.tool-card-body{padding:1.25rem 1.5rem;}
+.tool-card-header p{font-size:0.85rem;opacity:0.9;margin-top:0.25rem;}
+.tool-card-body{padding:1.25rem 1.5rem;background:#fff;display:flex;flex-direction:column;justify-content:space-between;}
 .tool-card-body p{color:var(--gray-600);font-size:0.9rem;margin-bottom:1rem;}
 .tool-card .btn{width:100%;justify-content:center;}
 
-/* ── Blog Preview ── */
+/* ── Blog Preview with Images ── */
 .blog-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:1.5rem;}
-.blog-card{background:#fff;border-radius:12px;overflow:hidden;box-shadow:var(--shadow-sm);border:1px solid var(--gray-200);transition:all 0.25s;}
+.blog-card{background:#fff;border-radius:12px;overflow:hidden;box-shadow:var(--shadow-sm);border:1px solid var(--gray-200);transition:all 0.25s;display:flex;flex-direction:column;}
 .blog-card:hover{box-shadow:var(--shadow-md);transform:translateY(-3px);}
-.blog-card-top{height:6px;background:linear-gradient(90deg,var(--blue),var(--orange));}
-.blog-card-body{padding:1.25rem 1.5rem;}
-.blog-meta{font-size:0.8rem;color:var(--gray-400);margin-bottom:0.5rem;font-weight:500;}
+.blog-card-image{width:100%;height:180px;object-fit:cover;background:linear-gradient(135deg,var(--gray-400),var(--gray-600));}
+.blog-card-top{height:4px;background:linear-gradient(90deg,var(--blue),var(--orange));}
+.blog-card-body{padding:1.5rem;flex:1;display:flex;flex-direction:column;}
+.blog-meta{font-size:0.8rem;color:var(--gray-400);margin-bottom:0.5rem;font-weight:500;text-transform:uppercase;}
 .blog-card-body h3{font-size:1.05rem;font-weight:700;color:var(--navy);margin-bottom:0.5rem;line-height:1.4;}
 .blog-card-body h3 a{color:inherit;transition:color 0.2s;}
 .blog-card-body h3 a:hover{color:var(--blue);}
-.blog-card-body p{color:var(--gray-600);font-size:0.9rem;line-height:1.6;}
+.blog-card-body p{color:var(--gray-600);font-size:0.9rem;line-height:1.6;flex:1;}
 .read-more{display:inline-flex;align-items:center;gap:0.25rem;color:var(--blue);font-weight:600;font-size:0.9rem;margin-top:0.75rem;transition:gap 0.2s;}
 .read-more:hover{gap:0.5rem;}
+
+/* ── Testimonial Section ── */
+.testimonial-section{background:linear-gradient(135deg,var(--navy),var(--navy-light));color:#fff;padding:3.5rem 1.5rem;position:relative;overflow:hidden;}
+.testimonial-inner{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:2rem;align-items:center;}
+.testimonial-image{height:400px;border-radius:12px;overflow:hidden;box-shadow:var(--shadow-lg);}
+.testimonial-image img{width:100%;height:100%;object-fit:cover;}
+.testimonial-content h2{font-size:1.85rem;font-weight:800;margin-bottom:1.5rem;letter-spacing:-0.02em;}
+.testimonial-quote{font-size:1.1rem;line-height:1.8;margin-bottom:1.5rem;color:rgba(255,255,255,0.95);font-style:italic;border-left:4px solid var(--orange);padding-left:1.5rem;}
+.testimonial-author{display:flex;align-items:center;gap:1rem;margin-top:2rem;}
+.testimonial-author-avatar{width:60px;height:60px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:1.5rem;}
+.testimonial-author-info h4{font-weight:700;margin-bottom:0.25rem;}
+.testimonial-author-info p{font-size:0.9rem;opacity:0.8;}
 
 /* ── Ad Slot ── */
 .ad-slot{background:var(--gray-50);padding:1rem;text-align:center;margin:2rem 0;border-radius:var(--radius);min-height:90px;}
@@ -145,6 +190,7 @@ img{max-width:100%;display:block;}
 /* ── Mobile ── */
 @media(max-width:768px){
 .nav-links{display:none;}
+.hero{min-height:400px;padding:3rem 1.5rem 2.5rem;}
 .hero h1{font-size:2rem;}
 .hero p{font-size:1rem;}
 .hero-buttons{flex-direction:column;}
@@ -152,6 +198,8 @@ img{max-width:100%;display:block;}
 .trust-inner{gap:1.25rem;}
 .trust-item{font-size:0.8rem;}
 .services-grid,.tools-grid,.blog-grid{grid-template-columns:1fr;}
+.testimonial-inner{grid-template-columns:1fr;}
+.testimonial-image{height:280px;}
 .footer-grid{grid-template-columns:1fr 1fr;}
 }
 
@@ -179,10 +227,10 @@ img{max-width:100%;display:block;}
 </div>
 </nav>
 
-<!-- Hero -->
+<!-- Hero with Background Image -->
 <section class="hero">
 <div class="hero-inner">
-<div class="hero-badge">Trusted by Trade Professionals</div>
+<div class="hero-badge">Trusted by 50,000+ Trade Professionals</div>
 <h1>Expert Resources for Plumbers, HVAC Techs & Electricians</h1>
 <p>Free cost estimators, inspection checklists, professional tool recommendations, and expert guides to help you grow your business and serve your customers better.</p>
 <div class="hero-buttons">
@@ -195,11 +243,11 @@ img{max-width:100%;display:block;}
 <!-- Trust Bar -->
 <div class="trust-bar">
 <div class="trust-inner">
-<div class="trust-item"><span class="trust-icon">&#9733;</span> Expert-Reviewed Content</div>
-<div class="trust-item"><span class="trust-icon">&#128736;</span> Built for Working Pros</div>
-<div class="trust-item"><span class="trust-icon">&#128200;</span> Free Cost Estimators</div>
-<div class="trust-item"><span class="trust-icon">&#128214;</span> Updated for 2026</div>
-<div class="trust-item"><span class="trust-icon">&#9989;</span> 100% Free Tools</div>
+<div class="trust-item"><span class="trust-icon">⭐</span> Expert-Reviewed Content</div>
+<div class="trust-item"><span class="trust-icon">🛠️</span> Built for Working Pros</div>
+<div class="trust-item"><span class="trust-icon">📊</span> Free Cost Estimators</div>
+<div class="trust-item"><span class="trust-icon">📖</span> Updated for 2026</div>
+<div class="trust-item"><span class="trust-icon">✅</span> 100% Free Tools</div>
 </div>
 </div>
 
@@ -209,7 +257,7 @@ img{max-width:100%;display:block;}
 <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 </div>
 
-<!-- Services / Categories -->
+<!-- Services / Categories with Images -->
 <section class="section">
 <div class="section-inner">
 <div class="section-header">
@@ -218,46 +266,64 @@ img{max-width:100%;display:block;}
 </div>
 <div class="services-grid">
 <a href="/tradespro-guide/category/plumbing.html" class="service-card">
-<div class="service-icon">&#128682;</div>
+<img src="https://images.unsplash.com/photo-1585704032915-c3400ca199e7?w=600&q=80" alt="Plumbing pipes" class="service-card-image" loading="lazy">
+<div class="service-card-content">
+<div class="service-icon">🔧</div>
 <h3>Plumbing</h3>
 <p>Water heater guides, pipe repair tips, cost breakdowns, and the best plumbing tools reviewed by pros.</p>
 <span class="service-link">Explore Plumbing &rarr;</span>
+</div>
 </a>
 <a href="/tradespro-guide/category/hvac.html" class="service-card">
-<div class="service-icon">&#10052;</div>
+<img src="https://images.unsplash.com/photo-1631545806609-35d4ae440431?w=600&q=80" alt="HVAC unit" class="service-card-image" loading="lazy">
+<div class="service-card-content">
+<div class="service-icon">❄️</div>
 <h3>HVAC</h3>
 <p>Maintenance checklists, refrigerant guides, system sizing, and seasonal tune-up best practices.</p>
 <span class="service-link">Explore HVAC &rarr;</span>
+</div>
 </a>
 <a href="/tradespro-guide/category/electrical.html" class="service-card">
-<div class="service-icon">&#9889;</div>
+<img src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=600&q=80" alt="Electrician at work" class="service-card-image" loading="lazy">
+<div class="service-card-content">
+<div class="service-icon">⚡</div>
 <h3>Electrical</h3>
 <p>Wiring guides, code compliance tips, safety equipment, and electrical troubleshooting resources.</p>
 <span class="service-link">Explore Electrical &rarr;</span>
+</div>
 </a>
 <a href="/tradespro-guide/category/roofing.html" class="service-card">
-<div class="service-icon">&#127968;</div>
+<img src="https://images.unsplash.com/photo-1504148455328-c376907d081c?w=600&q=80" alt="Power tools workshop" class="service-card-image" loading="lazy">
+<div class="service-card-content">
+<div class="service-icon">🏠</div>
 <h3>Roofing</h3>
 <p>Material comparisons, repair vs replace guides, estimate templates, and weather-proofing advice.</p>
 <span class="service-link">Explore Roofing &rarr;</span>
+</div>
 </a>
 <a href="/tradespro-guide/category/contractor.html" class="service-card">
-<div class="service-icon">&#128188;</div>
+<img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80" alt="Business software" class="service-card-image" loading="lazy">
+<div class="service-card-content">
+<div class="service-icon">📋</div>
 <h3>Business</h3>
 <p>Pricing strategies, marketing tips, client communication templates, and small business growth guides.</p>
 <span class="service-link">Explore Business &rarr;</span>
+</div>
 </a>
 <a href="/tradespro-guide/tools/" class="service-card">
-<div class="service-icon">&#128295;</div>
+<img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&q=80" alt="Construction safety" class="service-card-image" loading="lazy">
+<div class="service-card-content">
+<div class="service-icon">🧰</div>
 <h3>Tools & Equipment</h3>
 <p>Expert-reviewed tool recommendations with real pro insights. Find the right tools for every job.</p>
 <span class="service-link">Browse Tools &rarr;</span>
+</div>
 </a>
 </div>
 </div>
 </section>
 
-<!-- Free Tools -->
+<!-- Free Tools with Images -->
 <section class="section section-alt">
 <div class="section-inner">
 <div class="section-header">
@@ -266,7 +332,8 @@ img{max-width:100%;display:block;}
 </div>
 <div class="tools-grid">
 <div class="tool-card">
-<div class="tool-card-header">
+<img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=600&q=80" alt="Calculator and finances" class="tool-card-image" loading="lazy">
+<div class="tool-card-header" style="background:linear-gradient(135deg,#f97316,#ea580c);">
 <h3>Plumbing Cost Estimator</h3>
 <p>Instant ballpark pricing for 8 common jobs</p>
 </div>
@@ -276,7 +343,8 @@ img{max-width:100%;display:block;}
 </div>
 </div>
 <div class="tool-card">
-<div class="tool-card-header">
+<img src="https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=600&q=80" alt="Checklist" class="tool-card-image" loading="lazy">
+<div class="tool-card-header" style="background:linear-gradient(135deg,#2563eb,#0f1b2d);">
 <h3>Plumbing Inspection Checklist</h3>
 <p>40+ items across 5 system areas</p>
 </div>
@@ -286,7 +354,8 @@ img{max-width:100%;display:block;}
 </div>
 </div>
 <div class="tool-card">
-<div class="tool-card-header">
+<img src="https://images.unsplash.com/photo-1581783898377-1c85bf937427?w=600&q=80" alt="Professional tools" class="tool-card-image" loading="lazy">
+<div class="tool-card-header" style="background:linear-gradient(135deg,#16a34a,#15803d);">
 <h3>Pro Tool Recommendations</h3>
 <p>Expert picks for every trade</p>
 </div>
@@ -305,7 +374,27 @@ img{max-width:100%;display:block;}
 <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 </div>
 
-<!-- Latest Blog Posts -->
+<!-- Why Pros Trust TradesPro - Testimonial Section -->
+<section class="testimonial-section">
+<div class="testimonial-inner">
+<div class="testimonial-image">
+<img src="https://images.unsplash.com/photo-1577720643272-265e434ff9ac?w=600&q=80" alt="Professional tradesperson" loading="lazy">
+</div>
+<div class="testimonial-content">
+<h2>Why Pros Trust TradesPro</h2>
+<p class="testimonial-quote">"I've been in the plumbing business for 22 years. TradesPro's cost estimator saves me at least 3 hours a week. The guides are actually written by people who do the work, not by some marketing team. That makes all the difference."</p>
+<div class="testimonial-author">
+<div class="testimonial-author-avatar">JM</div>
+<div class="testimonial-author-info">
+<h4>James Mitchell</h4>
+<p>Master Plumber, Portland OR • 22 years</p>
+</div>
+</div>
+<p style="margin-top:1.5rem;line-height:1.7;opacity:0.9;">We built TradesPro to solve real problems that working professionals face every day. No fluff. No upselling. Just practical tools that actually save you time and money so you can focus on what you do best — helping your customers.</p>
+</div>
+</section>
+
+<!-- Latest Blog Posts with Images -->
 <section class="section">
 <div class="section-inner">
 <div class="section-header">
@@ -314,27 +403,30 @@ img{max-width:100%;display:block;}
 </div>
 <div class="blog-grid">
 <div class="blog-card">
+<img src="https://images.unsplash.com/photo-1585704032915-c3400ca199e7?w=400&q=80" alt="Water heater article" class="blog-card-image" loading="lazy">
 <div class="blog-card-top"></div>
 <div class="blog-card-body">
-<div class="blog-meta">March 2026 &middot; Plumbing &middot; 6 min</div>
+<div class="blog-meta">March 2026 • Plumbing • 6 min</div>
 <h3><a href="/tradespro-guide/blog/5-signs-water-heater-failing.html">5 Signs Your Water Heater Is About to Fail</a></h3>
 <p>Catch these early warning signs before your water heater leaves you with a flooded basement and a $3,000 bill.</p>
 <a href="/tradespro-guide/blog/5-signs-water-heater-failing.html" class="read-more">Read More &rarr;</a>
 </div>
 </div>
 <div class="blog-card">
+<img src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=400&q=80" alt="DIY vs hiring plumber" class="blog-card-image" loading="lazy">
 <div class="blog-card-top"></div>
 <div class="blog-card-body">
-<div class="blog-meta">March 2026 &middot; Business &middot; 5 min</div>
+<div class="blog-meta">March 2026 • Business • 5 min</div>
 <h3><a href="/tradespro-guide/blog/diy-vs-hiring-plumber-cost.html">DIY vs. Hiring a Plumber: The Real Cost Breakdown</a></h3>
 <p>We crunch the numbers on 8 common plumbing jobs to show when DIY saves money and when calling a pro is smarter.</p>
 <a href="/tradespro-guide/blog/diy-vs-hiring-plumber-cost.html" class="read-more">Read More &rarr;</a>
 </div>
 </div>
 <div class="blog-card">
+<img src="https://images.unsplash.com/photo-1631545806609-35d4ae440431?w=400&q=80" alt="HVAC spring maintenance" class="blog-card-image" loading="lazy">
 <div class="blog-card-top"></div>
 <div class="blog-card-body">
-<div class="blog-meta">March 2026 &middot; HVAC &middot; 7 min</div>
+<div class="blog-meta">March 2026 • HVAC • 7 min</div>
 <h3><a href="/tradespro-guide/blog/hvac-spring-maintenance-checklist.html">The Complete Spring HVAC Maintenance Checklist for 2026</a></h3>
 <p>Step-by-step checklist covering everything from filter changes to refrigerant checks for the cooling season.</p>
 <a href="/tradespro-guide/blog/hvac-spring-maintenance-checklist.html" class="read-more">Read More &rarr;</a>
