@@ -33,6 +33,26 @@
     }
     </script>
 
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "name": "Best Plumbing Tools for Professionals",
+        "numberOfItems": 9,
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Channellock 10-Inch Pliers Set"},
+            {"@type": "ListItem", "position": 2, "name": "RIDGID 18-Inch Heavy-Duty Pipe Wrench"},
+            {"@type": "ListItem", "position": 3, "name": "Klein Tools 6-Piece Screwdriver Set"},
+            {"@type": "ListItem", "position": 4, "name": "PVC Pipe Cutter — Professional Grade"},
+            {"@type": "ListItem", "position": 5, "name": "Basin Wrench — Adjustable Sink Wrench"},
+            {"@type": "ListItem", "position": 6, "name": "Pipe Threader — Manual Threading Tool"},
+            {"@type": "ListItem", "position": 7, "name": "SharkBite Push-Fit Fittings Kit"},
+            {"@type": "ListItem", "position": 8, "name": "Propane Plumber's Torch — Self-Igniting"},
+            {"@type": "ListItem", "position": 9, "name": "Drain Snake — 25-Foot Professional"}
+        ]
+    }
+    </script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -373,6 +393,38 @@
         .footer-disclosure { font-size: 12px; color: rgba(255,255,255,0.4); margin-bottom: 8px; }
         .footer-copy { font-size: 13px; }
 
+        /* Comparison Table */
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 2rem 0;
+            font-size: 0.9rem;
+            background: var(--white);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            overflow: hidden;
+        }
+        .comparison-table th {
+            background: var(--navy);
+            color: #fff;
+            padding: 0.75rem 1rem;
+            text-align: left;
+            font-weight: 600;
+            border-bottom: 2px solid var(--border);
+        }
+        .comparison-table td {
+            padding: 0.75rem 1rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .comparison-table tr:hover {
+            background: #f8fafc;
+        }
+        .comparison-table .rating {
+            color: var(--orange);
+            font-weight: 700;
+            text-align: center;
+        }
+
         /* Responsive */
         @media (max-width: 768px) {
             .top-bar { font-size: 11px; gap: 10px; flex-wrap: wrap; }
@@ -672,6 +724,97 @@
                     <h4><i class="fas fa-hard-hat"></i> Safety Equipment</h4>
                     <p>Essential PPE for trade professionals</p>
                 </a>
+            </div>
+        </section>
+
+        <!-- Comparison Table -->
+        <section style="max-width: 1200px; margin: 0 auto; padding: 0 24px 40px;">
+            <h2 style="font-size: 24px; font-weight: 700; margin-bottom: 20px; color: var(--text-dark);">Plumbing Tools Comparison</h2>
+            <table class="comparison-table">
+                <thead>
+                    <tr>
+                        <th>Product Name</th>
+                        <th>Best For</th>
+                        <th>Price Range</th>
+                        <th class="rating">Rating</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Channellock 10-Inch Pliers Set</strong></td>
+                        <td>Valve work and fitting adjustments</td>
+                        <td>$15–25</td>
+                        <td class="rating">★★★★★ 4.8</td>
+                    </tr>
+                    <tr>
+                        <td><strong>RIDGID 18-Inch Heavy-Duty Pipe Wrench</strong></td>
+                        <td>Large diameter pipes and threaded work</td>
+                        <td>$30–50</td>
+                        <td class="rating">★★★★★ 4.7</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Klein Tools 6-Piece Screwdriver Set</strong></td>
+                        <td>Valve box work and electrical tasks</td>
+                        <td>$20–35</td>
+                        <td class="rating">★★★★☆ 4.5</td>
+                    </tr>
+                    <tr>
+                        <td><strong>PVC Pipe Cutter — Professional Grade</strong></td>
+                        <td>Clean PVC and plastic pipe cuts</td>
+                        <td>$12–18</td>
+                        <td class="rating">★★★★★ 4.8</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Basin Wrench — Adjustable Sink Wrench</strong></td>
+                        <td>Faucet installations and sink work</td>
+                        <td>$15–22</td>
+                        <td class="rating">★★★★★ 4.7</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Pipe Threader — Manual Threading Tool</strong></td>
+                        <td>Old plumbing repairs and black steel pipe</td>
+                        <td>$50–85</td>
+                        <td class="rating">★★★★☆ 4.4</td>
+                    </tr>
+                    <tr>
+                        <td><strong>SharkBite Push-Fit Fittings Kit</strong></td>
+                        <td>PEX conversions and quick installations</td>
+                        <td>$20–35</td>
+                        <td class="rating">★★★★★ 4.8</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Propane Plumber's Torch — Self-Igniting</strong></td>
+                        <td>Soldering and brazing copper pipe</td>
+                        <td>$25–40</td>
+                        <td class="rating">★★★★☆ 4.6</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Drain Snake — 25-Foot Professional</strong></td>
+                        <td>Clearing clogged drains and trap lines</td>
+                        <td>$18–28</td>
+                        <td class="rating">★★★★☆ 4.5</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section style="background:#f9f9f9;border:1px solid #e0e0e0;border-radius:8px;padding:1.5rem;margin:2rem 0;max-width:900px;margin-left:auto;margin-right:auto;">
+            <h3 style="color:#0066cc;margin-bottom:1rem;font-size:1.1rem;">Related Guides & Tools</h3>
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;">
+                <div>
+                    <h4 style="color:#333;margin-bottom:0.5rem;font-size:0.95rem;"><strong>Plumbing Guides</strong></h4>
+                    <ul style="list-style:none;padding:0;margin:0;font-size:0.9rem;">
+                        <li style="margin-bottom:0.5rem;"><a href="/tradespro-guide/blog/5-signs-water-heater-failing.html" style="color:#0066cc;text-decoration:none;">5 Signs Your Water Heater Is Failing</a></li>
+                        <li><a href="/tradespro-guide/blog/diy-vs-hiring-plumber-cost.html" style="color:#0066cc;text-decoration:none;">DIY vs. Hiring a Plumber Cost Guide</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 style="color:#333;margin-bottom:0.5rem;font-size:0.95rem;"><strong>Other Tool Categories</strong></h4>
+                    <ul style="list-style:none;padding:0;margin:0;font-size:0.9rem;">
+                        <li style="margin-bottom:0.5rem;"><a href="/tradespro-guide/tools/electrical-tools.html" style="color:#0066cc;text-decoration:none;">Electrical Tools</a></li>
+                        <li><a href="/tradespro-guide/tools/hvac-tools.html" style="color:#0066cc;text-decoration:none;">HVAC Tools</a></li>
+                    </ul>
+                </div>
             </div>
         </section>
     </main>
