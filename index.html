@@ -175,6 +175,23 @@ img{max-width:100%;display:block;}
 /* ── Ad Slot ── */
 .ad-slot{background:var(--gray-50);padding:1rem;text-align:center;margin:2rem 0;border-radius:var(--radius);min-height:90px;}
 
+/* ── Gumroad Prompts Section ── */
+.prompts-section{background:#fff;padding:3.5rem 1.5rem;}
+.prompts-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1.5rem;margin-bottom:2rem;}
+.prompt-card{background:#fff;border:1px solid var(--gray-200);border-radius:12px;overflow:hidden;box-shadow:var(--shadow-sm);transition:all 0.25s;display:flex;flex-direction:column;}
+.prompt-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-lg);border-color:var(--orange);}
+.prompt-card-header{background:linear-gradient(135deg,var(--blue),var(--navy-light));color:#fff;padding:1.5rem;min-height:120px;display:flex;flex-direction:column;justify-content:center;}
+.prompt-card-header h3{font-size:1.1rem;font-weight:700;margin-bottom:0.5rem;}
+.prompt-card-header p{font-size:0.9rem;opacity:0.9;}
+.prompt-card-body{padding:1.5rem;flex:1;display:flex;flex-direction:column;}
+.prompt-card-body p{color:var(--gray-600);font-size:0.9rem;line-height:1.6;margin-bottom:1rem;flex:1;}
+.prompt-card-footer{display:flex;align-items:center;justify-content:space-between;padding-top:1rem;border-top:1px solid var(--gray-100);}
+.prompt-price{font-size:1.25rem;font-weight:700;color:var(--orange);}
+.prompt-guarantee{display:inline-block;background:rgba(22,163,74,0.1);border:1px solid rgba(22,163,74,0.3);color:#16a34a;font-size:0.75rem;font-weight:700;padding:0.35rem 0.75rem;border-radius:50px;text-transform:uppercase;letter-spacing:0.02em;}
+.prompts-cta{text-align:center;margin-top:2rem;}
+.prompts-cta a{display:inline-flex;align-items:center;gap:0.5rem;background:var(--orange);color:#fff;font-weight:700;padding:1rem 2rem;border-radius:var(--radius);font-size:1.05rem;transition:all 0.2s;}
+.prompts-cta a:hover{background:var(--orange-dark);transform:translateY(-2px);box-shadow:0 6px 20px rgba(249,115,22,0.35);}
+
 /* ── CTA Banner ── */
 .cta-banner{background:linear-gradient(135deg,var(--navy),var(--navy-light));color:#fff;padding:3rem 1.5rem;text-align:center;}
 .cta-banner h2{font-size:1.75rem;font-weight:700;margin-bottom:0.75rem;}
@@ -199,7 +216,7 @@ img{max-width:100%;display:block;}
 .btn{width:100%;justify-content:center;}
 .trust-inner{gap:1.25rem;}
 .trust-item{font-size:0.8rem;}
-.services-grid,.tools-grid,.blog-grid{grid-template-columns:1fr;}
+.services-grid,.tools-grid,.blog-grid,.prompts-grid{grid-template-columns:1fr;}
 .testimonial-inner{grid-template-columns:1fr;}
 .testimonial-image{height:280px;}
 .footer-grid{grid-template-columns:1fr 1fr;}
@@ -480,6 +497,76 @@ img{max-width:100%;display:block;}
 </div>
 <div style="text-align:center;margin-top:2rem;">
 <a href="/tradespro-guide/blog/" class="btn btn-secondary" style="color:var(--blue);border-color:var(--blue);">View All Blog Posts &rarr;</a>
+</div>
+</div>
+</section>
+
+<!-- AI-Powered Business Tools: ChatGPT Prompts for Trades -->
+<section class="prompts-section">
+<div class="section-inner">
+<div class="section-header">
+<h2>AI-Powered Business Tools</h2>
+<p>ChatGPT prompt packs designed specifically for trade professionals. Save hours on proposals, estimates, marketing, and client communication.</p>
+</div>
+<div class="prompts-grid">
+<a href="https://gogopaschal.gumroad.com" class="prompt-card" style="text-decoration:none;color:inherit;">
+<div class="prompt-card-header">
+<h3>50 ChatGPT Prompts for Plumbers</h3>
+<p>Marketing, proposals, and client scripts</p>
+</div>
+<div class="prompt-card-body">
+<p>Generate professional estimates, marketing copy, client follow-up emails, and pricing scripts instantly. Save 3-5 hours per week on administrative work.</p>
+<div class="prompt-card-footer">
+<span class="prompt-price">$5</span>
+<span class="prompt-guarantee">30-day guarantee</span>
+</div>
+</div>
+</a>
+
+<a href="https://gogopaschal.gumroad.com" class="prompt-card" style="text-decoration:none;color:inherit;">
+<div class="prompt-card-header">
+<h3>50 ChatGPT Prompts for Electricians</h3>
+<p>Job bids, safety docs, and customer education</p>
+</div>
+<div class="prompt-card-body">
+<p>Create detailed job estimates, safety compliance documents, customer education materials, and code reference guides. Perfect for licensed electricians.</p>
+<div class="prompt-card-footer">
+<span class="prompt-price">$5</span>
+<span class="prompt-guarantee">30-day guarantee</span>
+</div>
+</div>
+</a>
+
+<a href="https://gogopaschal.gumroad.com" class="prompt-card" style="text-decoration:none;color:inherit;">
+<div class="prompt-card-header">
+<h3>50 ChatGPT Prompts for HVAC Techs</h3>
+<p>Maintenance plans, system specs, and quotes</p>
+</div>
+<div class="prompt-card-body">
+<p>Generate maintenance checklists, system specification sheets, customer quotes, and seasonal service plans. Built for HVAC professionals.</p>
+<div class="prompt-card-footer">
+<span class="prompt-price">$5</span>
+<span class="prompt-guarantee">30-day guarantee</span>
+</div>
+</div>
+</a>
+
+<a href="https://gogopaschal.gumroad.com" class="prompt-card" style="text-decoration:none;color:inherit;">
+<div class="prompt-card-header">
+<h3>50 ChatGPT Prompts for Contractors</h3>
+<p>Project management, scheduling, and growth</p>
+</div>
+<div class="prompt-card-body">
+<p>Streamline project planning, crew scheduling, client communication, and business growth strategies. Essential tools for contractors at any scale.</p>
+<div class="prompt-card-footer">
+<span class="prompt-price">$5</span>
+<span class="prompt-guarantee">30-day guarantee</span>
+</div>
+</div>
+</a>
+</div>
+<div class="prompts-cta">
+<a href="https://gogopaschal.gumroad.com">Browse All AI Prompt Packs &rarr;</a>
 </div>
 </div>
 </section>
