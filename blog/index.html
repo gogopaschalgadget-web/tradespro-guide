@@ -1,254 +1,412 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Google Analytics GA4 -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-6ZLDKMTPKP"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-6ZLDKMTPKP');
-</script>
-    <meta charset="UTF-8">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5182415121977508" crossorigin="anonymous"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="TradesPro Blog — Expert tips, cost guides, and industry insights for plumbers, electricians, HVAC techs, and contractors.">
-    <meta name="keywords" content="plumbing tips, HVAC guide, electrical safety, contractor business, trades blog">
-    <title>Blog | TradesPro Guide</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="TradesPro Blog - Expert articles, how-to guides, and industry insights for plumbers, electricians, HVAC techs, and contractors.">
+<meta name="keywords" content="trades blog, plumbing guide, HVAC tips, electrical advice, contractor resources">
+<title>TradesPro Blog - Articles for Trade Professionals</title>
 
-    <meta property="og:title" content="TradesPro Blog — Expert Trade Tips & Guides">
-    <meta property="og:description" content="Expert tips, cost guides, and industry insights for trade professionals.">
-    <meta property="og:url" content="https://gogopaschalgadget-web.github.io/tradespro-guide/blog/">
-    <meta property="og:type" content="blog">
-    <meta name="twitter:card" content="summary_large_image">
+<!-- Open Graph -->
+<meta property="og:title" content="TradesPro Blog - Articles for Trade Professionals">
+<meta property="og:description" content="Expert articles and how-to guides for trades professionals.">
+<meta property="og:url" content="https://gogopaschalgadget-web.github.io/tradespro-guide/blog/">
+<meta property="og:type" content="website">
 
-    <link rel="stylesheet" href="/tradespro-guide/assets/style.css">
-    <style>
-        .blog-header {
-            background: linear-gradient(135deg, #0066cc, #0052a3);
-            color: #fff;
-            padding: 3rem 1rem;
-            text-align: center;
-        }
-        .blog-header h1 { font-size: 2.2rem; margin-bottom: 0.5rem; }
-        .blog-header p { font-size: 1.1rem; opacity: 0.9; }
-        .blog-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-            gap: 2rem;
-            padding: 2rem 0;
-        }
-        .blog-card {
-            background: #fff;
-            border-radius: 8px;
-            overflow: hidden;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-            transition: transform 0.2s, box-shadow 0.2s;
-        }
-        .blog-card:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 6px 20px rgba(0,0,0,0.12);
-        }
-        .blog-card-body { padding: 1.25rem; }
-        .blog-card-body h2 { font-size: 1.2rem; margin-bottom: 0.5rem; color: #1a1a1a; }
-        .blog-card-body h2 a { color: inherit; text-decoration: none; }
-        .blog-card-body h2 a:hover { color: #0066cc; }
-        .blog-meta { font-size: 0.85rem; color: #888; margin-bottom: 0.75rem; }
-        .blog-card-body p { color: #555; font-size: 0.95rem; line-height: 1.5; }
-        .read-more {
-            display: inline-block;
-            margin-top: 0.75rem;
-            color: #0066cc;
-            font-weight: 600;
-            text-decoration: none;
-        }
-        .read-more:hover { text-decoration: underline; }
-        .ad-slot-blog { background: #f5f5f5; padding: 15px; text-align: center; margin: 2rem 0; border-radius: 4px; min-height: 100px; }
-        .gumroad-sidebar {
-            background: linear-gradient(135deg, #2563eb 0%, #0f1b2d 100%);
-            color: #fff;
-            padding: 1.5rem;
-            border-radius: 8px;
-            margin: 2rem 0;
-            text-align: center;
-            border: 2px solid #f97316;
-        }
-        .gumroad-sidebar h3 {
-            font-size: 1.1rem;
-            font-weight: 700;
-            margin-bottom: 0.5rem;
-            color: #fbbf24;
-        }
-        .gumroad-sidebar p {
-            font-size: 0.9rem;
-            line-height: 1.6;
-            margin-bottom: 1rem;
-            opacity: 0.95;
-        }
-        .gumroad-sidebar a {
-            display: inline-block;
-            background: #f97316;
-            color: #fff;
-            font-weight: 700;
-            padding: 0.75rem 1.5rem;
-            border-radius: 6px;
-            text-decoration: none;
-            transition: all 0.2s;
-            font-size: 0.95rem;
-        }
-        .gumroad-sidebar a:hover {
-            background: #ea580c;
-            transform: translateY(-2px);
-        }
-        .guarantee-badge {
-            display: inline-block;
-            background: rgba(22, 163, 74, 0.2);
-            border: 1px solid rgba(22, 163, 74, 0.4);
-            color: #86efac;
-            font-size: 0.75rem;
-            font-weight: 700;
-            padding: 0.3rem 0.6rem;
-            border-radius: 50px;
-            margin-top: 0.75rem;
-            text-transform: uppercase;
-            letter-spacing: 0.02em;
-        }
-    </style>
-    <link rel="canonical" href="https://gogopaschalgadget-web.github.io/tradespro-guide/blog/index.html">
-    <script type="application/ld+json">
+<!-- Font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<!-- Schema.org -->
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Blog",
-  "name": "TradesPro Guide Blog",
-  "url": "https://gogopaschalgadget-web.github.io/tradespro-guide/blog/index.html",
-  "publisher": {
-    "@type": "Organization",
-    "name": "TradesPro Guide"
-  }
+  "@type": "CollectionPage",
+  "name": "TradesPro Blog",
+  "description": "Expert articles and how-to guides for trades professionals",
+  "url": "https://gogopaschalgadget-web.github.io/tradespro-guide/blog/"
 }
 </script>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  color: #1a1a1a;
+  background: #fafafa;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  background: #fff;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+header h1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #d95f2d;
+}
+
+header nav {
+  display: flex;
+  gap: 30px;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+
+header nav a {
+  color: #555;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+header nav a:hover {
+  color: #d95f2d;
+}
+
+.breadcrumb {
+  padding: 20px 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.breadcrumb a {
+  color: #d95f2d;
+  text-decoration: none;
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+.page-header {
+  padding: 40px 20px;
+  background: #f5f5f5;
+  margin-bottom: 40px;
+  border-radius: 8px;
+}
+
+.page-header h1 {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  color: #1a1a1a;
+}
+
+.page-header p {
+  font-size: 16px;
+  color: #666;
+}
+
+.article-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+.article-card {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #e0e0e0;
+  transition: all 0.2s;
+  display: flex;
+  flex-direction: column;
+}
+
+.article-card:hover {
+  border-color: #d95f2d;
+  box-shadow: 0 4px 16px rgba(217, 95, 45, 0.12);
+  transform: translateY(-4px);
+}
+
+.article-thumbnail {
+  width: 100%;
+  height: 160px;
+  background: linear-gradient(135deg, #d95f2d 0%, #b84d23 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.article-content {
+  padding: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.article-badge {
+  display: inline-block;
+  padding: 4px 10px;
+  background: #fff3f0;
+  color: #d95f2d;
+  font-size: 11px;
+  font-weight: 700;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  width: fit-content;
+  text-transform: uppercase;
+}
+
+.article-card h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #1a1a1a;
+  line-height: 1.4;
+}
+
+.article-card p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 15px;
+  flex: 1;
+}
+
+.article-meta {
+  font-size: 12px;
+  color: #999;
+  margin-bottom: 15px;
+}
+
+.article-link {
+  display: inline-block;
+  color: #d95f2d;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  transition: color 0.2s;
+}
+
+.article-link:hover {
+  color: #b84d23;
+}
+
+.categories {
+  margin-bottom: 40px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+}
+
+.categories h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #1a1a1a;
+}
+
+.category-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.category-tag {
+  display: inline-block;
+  padding: 8px 14px;
+  background: #f5f5f5;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #555;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-decoration: none;
+}
+
+.category-tag:hover {
+  background: #fff3f0;
+  border-color: #d95f2d;
+  color: #d95f2d;
+}
+
+footer {
+  background: #1a1a1a;
+  color: #ccc;
+  padding: 40px 20px;
+  margin-top: 80px;
+  text-align: center;
+  font-size: 13px;
+}
+
+footer a {
+  color: #d95f2d;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 20px;
+  }
+  
+  .page-header h1 {
+    font-size: 24px;
+  }
+  
+  .article-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+</style>
+
 </head>
 <body>
-    <header>
-        <div class="header-container">
-            <a href="/tradespro-guide/" class="logo">TradesPro Guide</a>
-            <nav><ul>
-                <li><a href="/tradespro-guide/">Home</a></li>
-                <li><a href="/tradespro-guide/tools/">Tools</a></li>
-                <li><a href="/tradespro-guide/blog/" class="active">Blog</a></li>
-                <li><a href="/tradespro-guide/category/plumbing.html">Plumbing</a></li>
-                <li><a href="/tradespro-guide/category/hvac.html">HVAC</a></li>
-                <li><a href="/tradespro-guide/category/electrical.html">Electrical</a></li>
-            </ul></nav>
-        </div>
-    </header>
 
-    <div class="blog-header">
-        <h1>TradesPro Blog</h1>
-        <p>Expert tips, cost guides, and industry insights for trade professionals</p>
+<header>
+  <div class="container">
+    <h1>TradesPro Guide</h1>
+    <nav>
+      <a href="../">Home</a>
+      <a href="#articles">Articles</a>
+      <a href="../about.html">About</a>
+      <a href="https://gogopaschal.gumroad.com">Shop</a>
+      <a href="../privacy-policy.html">Privacy</a>
+    </nav>
+  </div>
+</header>
+
+<div class="container">
+  <div class="breadcrumb">
+    <a href="../">Home</a> / Blog
+  </div>
+</div>
+
+<main class="container">
+
+  <div class="page-header">
+    <h1>Blog</h1>
+    <p>Expert tips, how-to guides, and industry insights for trades professionals. Learn how to use AI, grow your business, and improve efficiency.</p>
+  </div>
+
+  <div class="categories">
+    <h3>Filter by Category</h3>
+    <div class="category-list">
+      <a href="#" class="category-tag">All</a>
+      <a href="#" class="category-tag">AI Tips</a>
+      <a href="#" class="category-tag">Business</a>
+      <a href="#" class="category-tag">How-To</a>
+      <a href="#" class="category-tag">Tools</a>
     </div>
+  </div>
 
-    <main>
-        <div class="container">
-            <div class="gumroad-sidebar">
-                <h3>Save Hours on Business Tasks</h3>
-                <p>ChatGPT prompts designed for trade pros. Generate estimates, marketing copy, and client scripts instantly.</p>
-                <a href="https://gogopaschal.gumroad.com">Browse Prompt Packs ($5 each)</a>
-                <div class="guarantee-badge">30-day money-back guarantee</div>
-            </div>
+  <section id="articles">
+    <div class="article-grid">
 
-            <div class="ad-slot-blog" id="ad-blog-top">
-                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5182415121977508" data-ad-slot="auto" data-ad-format="auto" data-full-width-responsive="true"></ins>
-                <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-            </div>
-
-            <div class="blog-grid" id="blog-posts">
-                <div class="blog-card">
-                    <div class="blog-card-body">
-                        <div class="blog-meta">March 26, 2026 &middot; Plumbing &middot; 10 min read</div>
-                        <h2><a href="/tradespro-guide/blog/bathroom-renovation-cost-2026.html">Bathroom Renovation Cost Breakdown for 2026: What to Expect</a></h2>
-                        <p>How much does a bathroom renovation cost in 2026? Full cost breakdown by project size, materials, and labor with budget-saving tips from trade professionals.</p>
-                        <a href="/tradespro-guide/blog/bathroom-renovation-cost-2026.html" class="read-more">Read More &rarr;</a>
-                    </div>
-                </div>
-                <div class="blog-card">
-                    <div class="blog-card-body">
-                        <div class="blog-meta">March 26, 2026 &bull; 12 min read</div>
-                        <h2><a href="/tradespro-guide/blog/spring-home-maintenance-checklist-2026.html">Spring Home Maintenance Checklist 2026: Complete Room-by-Room Guide</a></h2>
-                        <p>Your complete spring maintenance checklist covering HVAC, plumbing, electrical, roofing, and exterior prep. Includes pro tips, cost estimates, and recommended tools for every task.</p>
-                        <a href="/tradespro-guide/blog/spring-home-maintenance-checklist-2026.html" class="read-more">Read More &rarr;</a>
-                    </div>
-                </div>
-                <div class="blog-card">
-                    <div class="blog-card-body">
-                        <div class="blog-meta">March 25, 2026 &middot; Electrical &middot; 8 min read</div>
-                        <h2><a href="/tradespro-guide/blog/electrical-work-cost-guide-2026.html">How Much Does Electrical Work Cost in 2026? Complete Price Guide</a></h2>
-                        <p>Detailed pricing for 15+ residential electrical jobs — outlets, panels, rewiring, EV chargers, and more. Know exactly what to pay before you hire an electrician.</p>
-                        <a href="/tradespro-guide/blog/electrical-work-cost-guide-2026.html" class="read-more">Read More &rarr;</a>
-                    </div>
-                </div>
-                <div class="blog-card">
-                    <div class="blog-card-body">
-                        <div class="blog-meta">March 25, 2026 &middot; Plumbing &middot; 10 min read</div>
-                        <h2><a href="/tradespro-guide/blog/best-plumbing-tools-2026.html">Best Plumbing Tools for Homeowners in 2026 — Complete Buyer's Guide</a></h2>
-                        <p>The 10 essential plumbing tools every homeowner needs, from tongue-and-groove pliers to PEX crimping tools. Expert picks with pro tips to save money on repairs.</p>
-                        <a href="/tradespro-guide/blog/best-plumbing-tools-2026.html" class="read-more">Read More &rarr;</a>
-                    </div>
-                </div>
-
-                <div class="blog-card">
-                    <div class="blog-card-body">
-                        <div class="blog-meta">March 24, 2026 &middot; Electrical &middot; 8 min read</div>
-                        <h2><a href="/tradespro-guide/blog/best-electrical-tools-homeowners.html">10 Best Electrical Tools Every Homeowner Needs in 2026</a></h2>
-                        <p>The essential electrical tools every homeowner should own for safe DIY repairs. Expert picks with buying tips to save money and avoid common mistakes.</p>
-                        <a href="/tradespro-guide/blog/best-electrical-tools-homeowners.html" class="read-more">Read More &rarr;</a>
-                    </div>
-                </div>
-
-
-                <div class="blog-card">
-                    <div class="blog-card-body">
-                        <div class="blog-meta">March 23, 2026 &middot; Plumbing &middot; 6 min read</div>
-                        <h2><a href="/tradespro-guide/blog/5-signs-water-heater-failing.html">5 Signs Your Water Heater Is About to Fail</a></h2>
-                        <p>Catch these early warning signs before your water heater leaves you with a flooded basement and a $3,000 bill. What every homeowner and plumber should look for.</p>
-                        <a href="/tradespro-guide/blog/5-signs-water-heater-failing.html" class="read-more">Read More &rarr;</a>
-                    </div>
-                </div>
-
-                <div class="blog-card">
-                    <div class="blog-card-body">
-                        <div class="blog-meta">March 23, 2026 &middot; Business &middot; 5 min read</div>
-                        <h2><a href="/tradespro-guide/blog/diy-vs-hiring-plumber-cost.html">DIY vs. Hiring a Plumber: The Real Cost Breakdown</a></h2>
-                        <p>We crunch the numbers on 8 common plumbing jobs to show when DIY saves money and when calling a pro is the smarter investment.</p>
-                        <a href="/tradespro-guide/blog/diy-vs-hiring-plumber-cost.html" class="read-more">Read More &rarr;</a>
-                    </div>
-                </div>
-
-                <div class="blog-card">
-                    <div class="blog-card-body">
-                        <div class="blog-meta">March 23, 2026 &middot; HVAC &middot; 7 min read</div>
-                        <h2><a href="/tradespro-guide/blog/hvac-spring-maintenance-checklist.html">The Complete Spring HVAC Maintenance Checklist for 2026</a></h2>
-                        <p>Spring is the perfect time to prepare HVAC systems for summer demand. This step-by-step checklist covers everything from filter changes to refrigerant checks.</p>
-                        <a href="/tradespro-guide/blog/hvac-spring-maintenance-checklist.html" class="read-more">Read More &rarr;</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="ad-slot-blog" id="ad-blog-bottom">
-                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5182415121977508" data-ad-slot="auto" data-ad-format="auto" data-full-width-responsive="true"></ins>
-                <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-            </div>
+      <article class="article-card">
+        <div class="article-thumbnail">Image Coming Soon</div>
+        <div class="article-content">
+          <span class="article-badge">How-To</span>
+          <h3>How to Use AI to Write Better Customer Quotes</h3>
+          <p>Learn how to leverage ChatGPT and Claude to generate professional, detailed quotes faster. Includes templates and real examples from successful contractors.</p>
+          <div class="article-meta">4 min read</div>
+          <a href="ai-quotes-guide.html" class="article-link">Read Article</a>
         </div>
-    </main>
+      </article>
 
-    <footer style="background: #1a1a1a; color: #ccc; padding: 2rem; text-align: center; margin-top: 3rem;">
-        <p>&copy; 2026 TradesPro Guide. All rights reserved.</p>
-        <p style="margin-top: 0.5rem; font-size: 0.85rem;">
-            <a href="/tradespro-guide/" style="color: #0066cc; text-decoration: none;">Home</a> &middot;
-            <a href="/tradespro-guide/tools/" style="color: #0066cc; text-decoration: none;">Tools</a> &middot;
-            <a href="/tradespro-guide/blog/" style="color: #0066cc; text-decoration: none;">Blog</a>
-        </p>
-    </footer>
+      <article class="article-card">
+        <div class="article-thumbnail">Image Coming Soon</div>
+        <div class="article-content">
+          <span class="article-badge">Tools</span>
+          <h3>5 AI Tools Every Plumber Should Know About</h3>
+          <p>A practical review of AI tools that can save plumbers hours each week, from business administration to customer management and scheduling.</p>
+          <div class="article-meta">6 min read</div>
+          <a href="ai-tools-plumbers.html" class="article-link">Read Article</a>
+        </div>
+      </article>
+
+      <article class="article-card">
+        <div class="article-thumbnail">Image Coming Soon</div>
+        <div class="article-content">
+          <span class="article-badge">Business</span>
+          <h3>Scaling Your Trade Business with ChatGPT</h3>
+          <p>Strategies for using AI to grow your team, improve efficiency, and increase profitability without hiring more staff. Real examples from the field.</p>
+          <div class="article-meta">8 min read</div>
+          <a href="scaling-with-ai.html" class="article-link">Read Article</a>
+        </div>
+      </article>
+
+      <article class="article-card">
+        <div class="article-thumbnail">Image Coming Soon</div>
+        <div class="article-content">
+          <span class="article-badge">How-To</span>
+          <h3>Building an AI-Powered Service Menu</h3>
+          <p>Step-by-step guide to creating service offerings and pricing structures using AI-assisted market research and competitor analysis.</p>
+          <div class="article-meta">7 min read</div>
+          <a href="ai-service-menu.html" class="article-link">Read Article</a>
+        </div>
+      </article>
+
+      <article class="article-card">
+        <div class="article-thumbnail">Image Coming Soon</div>
+        <div class="article-content">
+          <span class="article-badge">AI Tips</span>
+          <h3>Common Mistakes When Using AI for Business</h3>
+          <p>Avoid these 5 critical mistakes when implementing AI in your trade business. Learn what works, what doesn't, and how to maximize ROI.</p>
+          <div class="article-meta">5 min read</div>
+          <a href="ai-mistakes.html" class="article-link">Read Article</a>
+        </div>
+      </article>
+
+      <article class="article-card">
+        <div class="article-thumbnail">Image Coming Soon</div>
+        <div class="article-content">
+          <span class="article-badge">Business</span>
+          <h3>Automating Your Trade Business with AI</h3>
+          <p>Complete guide to automating repetitive tasks in your business. Save hours per week on admin work and focus on customer relationships.</p>
+          <div class="article-meta">9 min read</div>
+          <a href="automating-business.html" class="article-link">Read Article</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="container">
+    <p style="margin-bottom: 15px;">&copy; 2026 Paschal Digital. All rights reserved.</p>
+    <nav style="display: flex; gap: 20px; justify-content: center; margin-bottom: 15px;">
+      <a href="../privacy-policy.html">Privacy Policy</a>
+      <a href="../terms.html">Terms of Service</a>
+      <a href="../about.html">About</a>
+    </nav>
+    <p style="opacity: 0.8;">30-day money back guarantee on all products.</p>
+  </div>
+</footer>
+
 </body>
 </html>
-
