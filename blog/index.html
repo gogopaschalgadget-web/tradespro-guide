@@ -2,361 +2,96 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="TradesPro Blog - Expert articles, how-to guides, and industry insights for plumbers, electricians, HVAC techs, and contractors.">
-<meta name="keywords" content="trades blog, plumbing guide, HVAC tips, electrical advice, contractor resources">
-<title>TradesPro Blog - Articles for Trade Professionals</title>
-
-<!-- Open Graph -->
-<meta property="og:title" content="TradesPro Blog - Articles for Trade Professionals">
-<meta property="og:description" content="Expert articles and how-to guides for trades professionals.">
-<meta property="og:url" content="https://gogopaschalgadget-web.github.io/tradespro-guide/blog/">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Guides for Homeowners and Trade Pros | TradesPro Guide</title>
+<meta name="description" content="How-to and cost guides for home plumbing, electrical, heating and roofing, plus business guides for trade pros.">
+<link rel="canonical" href="https://tradesprotools.com/blog/">
+<meta property="og:title" content="Guides for Homeowners and Trade Pros | TradesPro Guide">
+<meta property="og:description" content="How-to and cost guides for home plumbing, electrical, heating and roofing, plus business guides for trade pros.">
+<meta property="og:url" content="https://tradesprotools.com/blog/">
 <meta property="og:type" content="website">
-
-<!-- Font -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-
-<!-- Schema.org -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "CollectionPage",
-  "name": "TradesPro Blog",
-  "description": "Expert articles and how-to guides for trades professionals",
-  "url": "https://gogopaschalgadget-web.github.io/tradespro-guide/blog/"
-}
-</script>
-
-<style>
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  line-height: 1.6;
-  color: #1a1a1a;
-  background: #fafafa;
-}
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-header {
-  background: #fff;
-  border-bottom: 1px solid #e0e0e0;
-  padding: 20px 0;
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-}
-
-header h1 {
-  font-size: 24px;
-  font-weight: 700;
-  color: #d95f2d;
-}
-
-header nav {
-  display: flex;
-  gap: 30px;
-  margin-top: 15px;
-  flex-wrap: wrap;
-}
-
-header nav a {
-  color: #555;
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: 500;
-  transition: color 0.2s;
-}
-
-header nav a:hover {
-  color: #d95f2d;
-}
-
-.breadcrumb {
-  padding: 20px 0;
-  font-size: 14px;
-  color: #666;
-}
-
-.breadcrumb a {
-  color: #d95f2d;
-  text-decoration: none;
-}
-
-.breadcrumb a:hover {
-  text-decoration: underline;
-}
-
-.page-header {
-  padding: 40px 20px;
-  background: #f5f5f5;
-  margin-bottom: 40px;
-  border-radius: 8px;
-}
-
-.page-header h1 {
-  font-size: 32px;
-  font-weight: 800;
-  margin-bottom: 10px;
-  color: #1a1a1a;
-}
-
-.page-header p {
-  font-size: 16px;
-  color: #666;
-}
-
-.article-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 30px;
-  margin-bottom: 60px;
-}
-
-.article-card {
-  background: #fff;
-  border-radius: 8px;
-  overflow: hidden;
-  border: 1px solid #e0e0e0;
-  transition: all 0.2s;
-  display: flex;
-  flex-direction: column;
-}
-
-.article-card:hover {
-  border-color: #d95f2d;
-  box-shadow: 0 4px 16px rgba(217, 95, 45, 0.12);
-  transform: translateY(-4px);
-}
-
-.article-thumbnail {
-  width: 100%;
-  height: 160px;
-  background: linear-gradient(135deg, #d95f2d 0%, #b84d23 100%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  font-size: 14px;
-  font-weight: 600;
-}
-
-.article-content {
-  padding: 20px;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-}
-
-.article-badge {
-  display: inline-block;
-  padding: 4px 10px;
-  background: #fff3f0;
-  color: #d95f2d;
-  font-size: 11px;
-  font-weight: 700;
-  border-radius: 20px;
-  margin-bottom: 10px;
-  width: fit-content;
-  text-transform: uppercase;
-}
-
-.article-card h3 {
-  font-size: 18px;
-  font-weight: 600;
-  margin-bottom: 10px;
-  color: #1a1a1a;
-  line-height: 1.4;
-}
-
-.article-card p {
-  font-size: 14px;
-  color: #666;
-  margin-bottom: 15px;
-  flex: 1;
-}
-
-.article-meta {
-  font-size: 12px;
-  color: #999;
-  margin-bottom: 15px;
-}
-
-.article-link {
-  display: inline-block;
-  color: #d95f2d;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 14px;
-  transition: color 0.2s;
-}
-
-.article-link:hover {
-  color: #b84d23;
-}
-
-.categories {
-  margin-bottom: 40px;
-  padding: 20px;
-  background: #fff;
-  border-radius: 8px;
-  border: 1px solid #e0e0e0;
-}
-
-.categories h3 {
-  font-size: 16px;
-  font-weight: 600;
-  margin-bottom: 15px;
-  color: #1a1a1a;
-}
-
-.category-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-
-.category-tag {
-  display: inline-block;
-  padding: 8px 14px;
-  background: #f5f5f5;
-  border: 1px solid #e0e0e0;
-  border-radius: 4px;
-  font-size: 13px;
-  font-weight: 500;
-  color: #555;
-  cursor: pointer;
-  transition: all 0.2s;
-  text-decoration: none;
-}
-
-.category-tag:hover {
-  background: #fff3f0;
-  border-color: #d95f2d;
-  color: #d95f2d;
-}
-
-footer {
-  background: #1a1a1a;
-  color: #ccc;
-  padding: 40px 20px;
-  margin-top: 80px;
-  text-align: center;
-  font-size: 13px;
-}
-
-footer a {
-  color: #d95f2d;
-  text-decoration: none;
-}
-
-footer a:hover {
-  text-decoration: underline;
-}
-
-@media (max-width: 768px) {
-  header h1 {
-    font-size: 20px;
-  }
-  
-  .page-header h1 {
-    font-size: 24px;
-  }
-  
-  .article-grid {
-    grid-template-columns: 1fr;
-    gap: 20px;
-  }
-}
-</style>
-
+<meta property="og:site_name" content="TradesPro Guide">
+<meta name="twitter:card" content="summary">
+<link rel="stylesheet" href="/assets/site.css">
 </head>
 <body>
-
-<header>
-  <div class="container">
-    <h1>TradesPro Guide</h1>
-    <nav>
-      <a href="../">Home</a>
-      <a href="#articles">Articles</a>
-      <a href="../about.html">About</a>
-      <a href="https://kaorder59.gumroad.com">Shop</a>
-      <a href="../privacy-policy.html">Privacy</a>
-    </nav>
-  </div>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+<div class="wrap">
+<a class="brand" href="/">TradesPro Guide</a>
+<nav aria-label="Main">
+<a href="/answers/">Answers</a>
+<a href="/blog/">Guides</a>
+<a href="/tools/">Tool lists</a>
+<a href="/prompts/">For trade pros</a>
+</nav>
+</div>
 </header>
-
-<div class="container">
-  <div class="breadcrumb">
-    <a href="../">Home</a> / Blog
-  </div>
+<main id="main">
+<section class="page-head">
+<div class="wrap">
+<h1>Guides</h1>
+<p>How-to and cost guides for homeowners, and business guides for trade pros.</p>
 </div>
-
-<main class="container">
-
-  <div class="page-header">
-    <h1>Blog</h1>
-    <p>Expert tips, how-to guides, and industry insights for trades professionals. Learn how to use AI, grow your business, and improve efficiency.</p>
-  </div>
-
-  <div class="categories">
-    <h3>Filter by Category</h3>
-    <div class="category-list">
-      <a href="#" class="category-tag">All</a>
-      <a href="#" class="category-tag">AI Tips</a>
-      <a href="#" class="category-tag">Business</a>
-      <a href="#" class="category-tag">How-To</a>
-      <a href="#" class="category-tag">Tools</a>
-    </div>
-  </div>
-
-  <section id="articles">
-    <div class="article-grid">
-
-
-
-
-
-
-
-    </div>
-  </section>
-
+</section>
+<section class="wrap block">
+<h2>For homeowners</h2>
+<div class="cards">
+<a class="card" href="/articles/electrical-safety-checklist.html"><span class="tag">Electrical</span><h3>Electrical Safety Checklist: Protect Your Home</h3><p>Essential electrical safety checklist for homeowners and pros. 15-point inspection guide covering wiring, outlets, panels, and GFCI protection.</p></a>
+<a class="card" href="/articles/how-to-choose-right-contractor.html"><span class="tag">General</span><h3>How to Choose the Right Contractor for Home Renovations</h3><p>Complete guide to choosing the right contractor for your home renovation. Learn what to look for, red flags to avoid, and questions to ask before hiring.</p></a>
+<a class="card" href="/articles/hvac-maintenance-guide.html"><span class="tag">Hvac</span><h3>HVAC Maintenance Guide: Keep Your System Running</h3><p>Complete HVAC maintenance guide for homeowners. Seasonal checklists, filter schedules, and tips to extend your system&#x27;s life and cut energy costs.</p></a>
+<a class="card" href="/articles/plumbing-basics-101.html"><span class="tag">Plumbing</span><h3>Plumbing Basics 101: Essential Knowledge for Homeowners</h3><p>Plumbing basics every homeowner should know. Learn about pipe types, common repairs, water heater maintenance, and when to call a professional plumber.</p></a>
+<a class="card" href="/blog/5-signs-water-heater-failing.html"><span class="tag">Plumbing</span><h3>5 Signs Your Water Heater Is About to Fail</h3><p>Learn the 5 critical warning signs that your water heater is about to fail. Catch problems early and save thousands on emergency replacements.</p></a>
+<a class="card" href="/blog/bathroom-renovation-cost-2026.html"><span class="tag">Plumbing</span><h3>Bathroom Renovation Cost Breakdown for 2026: What to Expect</h3><p>How much does a bathroom renovation cost in 2026? Full cost breakdown by project size, materials, and labor. Budget tips from trade professionals.</p></a>
+<a class="card" href="/blog/best-electrical-tools-homeowners.html"><span class="tag">Electrical</span><h3>10 Best Electrical Tools Every Homeowner Needs in 2026</h3><p>The 10 best electrical tools every homeowner needs for safe DIY electrical work. Expert recommendations with buying tips to save money and avoid common mistakes.</p></a>
+<a class="card" href="/blog/best-plumbing-tools-2026.html"><span class="tag">Plumbing</span><h3>Best Plumbing Tools for Homeowners in 2026 — Complete Buyer&#x27;s Guide</h3><p>Comprehensive guide to the 10 essential plumbing tools every homeowner needs. Expert reviews, buying tips, and Amazon links for the best tools in 2026.</p></a>
+<a class="card" href="/blog/diy-vs-hiring-plumber-cost.html"><span class="tag">Plumbing</span><h3>DIY vs. Hiring a Plumber: The Real Cost Breakdown</h3><p>Compare DIY vs professional plumber costs for 8 common jobs. Find out when doing it yourself saves money and when calling a pro is the smarter choice.</p></a>
+<a class="card" href="/blog/electrical-work-cost-guide-2026.html"><span class="tag">Electrical</span><h3>How Much Does Electrical Work Cost in 2026? Complete Price Guide</h3><p>How much does electrical work cost in 2026? Complete pricing guide for outlets, panels, rewiring, and more. Know what to pay before you hire an electrician.</p></a>
+<a class="card" href="/blog/hvac-spring-maintenance-checklist.html"><span class="tag">Hvac</span><h3>The Complete Spring HVAC Maintenance Checklist for 2026</h3><p>Complete spring HVAC maintenance checklist for 2026. Step-by-step guide for homeowners and HVAC techs to prepare air conditioning systems for summer.</p></a>
+<a class="card" href="/blog/plumber-hourly-rates-2026.html"><span class="tag">Plumbing</span><h3>How Much Does a Plumber Charge Per Hour in 2026? Complete Rate Guide</h3><p>2026 plumber hourly rates by region, experience level, and emergency status. Get detailed cost breakdown for standard jobs and find what to expect when hiring a licensed plumber.</p></a>
+<a class="card" href="/blog/roof-cost-2026.html"><span class="tag">Roofing</span><h3>Cost of a New Roof in 2026: Pricing Guide for Homeowners</h3><p>2026 roof replacement cost guide. Learn average prices, factors affecting cost, material options, and how to get quotes for your home.</p></a>
+<a class="card" href="/blog/spring-home-maintenance-checklist-2026.html"><span class="tag">General</span><h3>Spring Home Maintenance Checklist 2026: Complete Guide</h3><p>Complete spring home maintenance checklist for 2026. Room-by-room guide covering HVAC, plumbing, electrical, roofing, and exterior prep with pro tips and tool recommendations.</p></a>
+<a class="card" href="/blog/spring-roofing-checklist-2026.html"><span class="tag">Roofing</span><h3>Spring Roofing Checklist: 7 Things Every Homeowner Should Inspect</h3><p>A practical spring roofing inspection checklist for homeowners. Know what to look for before hiring a roofer.</p></a>
+</div>
+</section>
+<section class="wrap block">
+<h2>For trade businesses</h2>
+<div class="cards">
+<a class="card" href="/blog/best-power-tools-electricians-2026.html"><h3>Best Power Tools for Electricians 2026</h3><p>The 10 best power tools for electricians in 2026. Professional reviews, price comparisons, and buying advice for journeymen and master electricians.</p></a>
+<a class="card" href="/blog/contractor-bid-template.html"><h3>General Contractor Bid Template: Win More Projects</h3><p>Free general contractor bid template. Win more projects with professional bids, detailed scopes, and clear pricing that closes customers fast.</p></a>
+<a class="card" href="/blog/electrician-business-insurance.html"><h3>Electrician Business Insurance: What You Actually Need</h3><p>Complete guide to electrician business insurance. What coverage you actually need, how much it costs, and how to avoid being underinsured in 2026.</p></a>
+<a class="card" href="/blog/how-to-start-roofing-business-2026.html"><h3>How to Start a Roofing Business in 2026 (Step-by-Step Guide)</h3><p>Learn how to start a roofing business in 2026 with this complete step-by-step guide. Licensing, insurance, equipment, marketing, and pricing strategies for new roofers.</p></a>
+<a class="card" href="/blog/hvac-certifications-guide-2026.html"><h3>Best HVAC Certifications for 2026: What They Cost and What They Pay</h3><p>A complete guide to HVAC certifications in 2026, including EPA 608, NATE, and what each one pays. Real costs, real salary data.</p></a>
+<a class="card" href="/blog/hvac-contractor-marketing.html"><h3>HVAC Contractor Marketing: 7 Ways to Get More Calls</h3><p>7 proven HVAC marketing strategies to get more calls and customers. HVAC contractor marketing tactics that generate consistent leads in 2026.</p></a>
+<a class="card" href="/blog/plumber-pricing-guide.html"><h3>Plumber Pricing Guide: How to Set Your Rates Without Losing Jobs</h3><p>Complete plumber pricing guide for 2026. How to set rates, calculate hourly rates, and pricing strategy to win jobs without leaving money on the table.</p></a>
+</div>
+</section>
+<section class="wrap block">
+<!-- next-step:start -->
+<style>.ns-box{max-width:760px;width:calc(100% - 28px);margin:36px auto;padding:22px 22px;background:#fff7f0;border:1px solid #f0c9b3;border-left:5px solid #b3441a;border-radius:8px;color:#1a1a1a;font-family:inherit;line-height:1.55;text-align:left}.ns-box .ns-kicker{margin:0 0 6px;font-size:.8rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#8a3412}.ns-box h3{margin:0 0 8px;font-size:1.25rem;line-height:1.3;color:#1a1a1a}.ns-box p{margin:0 0 14px;color:#333;font-size:1rem;text-align:left}.ns-box .ns-btn{display:inline-block;background:#b3441a;color:#fff;padding:13px 22px;border-radius:6px;font-weight:700;text-decoration:none;font-size:1rem}.ns-box .ns-btn:hover,.ns-box .ns-btn:focus{background:#8a3412}.ns-box .ns-more{margin:16px 0 0;font-size:.95rem;color:#444}.ns-box .ns-more a{color:#8a3412;font-weight:600}</style>
+<aside class="ns-box" aria-label="Next step">
+<p class="ns-kicker">Next step</p>
+<h3>Free home plumbing inspection checklist</h3>
+<p>Go through your home room by room and spot small plumbing problems before they turn into big repairs. Free to use and print, no sign-up.</p>
+<a class="ns-btn" href="/tools/free-plumbing-checklist.html">Open the free checklist</a>
+<p class="ns-more">After that: <a href="/answers/">more home repair answers and guides</a>. Run a trade business? <a href="/prompts/">See the prompt packs</a>.</p>
+</aside>
+<!-- next-step:end -->
+</section>
 </main>
-
-<footer>
-  <div class="container">
-    <p style="margin-bottom: 15px;">&copy; 2026 Paschal Digital. All rights reserved.</p>
-    <nav style="display: flex; gap: 20px; justify-content: center; margin-bottom: 15px;">
-      <a href="../privacy-policy.html">Privacy Policy</a>
-      <a href="../terms.html">Terms of Service</a>
-      <a href="../about.html">About</a>
-    </nav>
-    <p style="opacity: 0.8;">30-day money back guarantee on all products.</p>
-  </div>
-</footer>
-
-
-<!-- cassian-cta-inject -->
-<div style="background:#fef3c7;border-left:4px solid #d97706;padding:24px 28px;margin:36px auto;border-radius:6px;max-width:760px;font-family:inherit;">
-  <h3 style="color:#92400e;margin:0 0 10px 0;font-size:1.15em;line-height:1.3;">HVAC AI Prompt Bundle</h3>
-  <p style="color:#78350f;margin:0 0 16px 0;line-height:1.55;">The complete AI prompt toolkit for HVAC companies. Dispatch, estimates, follow-ups, sales, and review requests.</p>
-  <a href="https://kaorder59.gumroad.com/l/nnzizf" style="display:inline-block;background:#d97706;color:#fff;padding:11px 26px;text-decoration:none;border-radius:4px;font-weight:600;font-size:0.95em;">Get Instant Access</a>
-  <p style="font-size:0.85em;color:#6b7280;margin:10px 0 0 0;font-style:italic;">30-day money back guarantee. No questions asked.</p>
+<footer class="site-footer">
+<div class="wrap">
+<nav aria-label="Footer">
+<a href="/about.html">About</a>
+<a href="/privacy.html">Privacy</a>
+<a href="/terms.html">Terms</a>
+<a href="/contact.html">Contact</a>
+<a href="https://kaorder59.gumroad.com">Store</a>
+</nav>
+<p>&copy; 2026 TradesPro Guide</p>
+<p class="legal-note">Written with AI assistance. <a href="/privacy.html">Privacy Policy</a> | <a href="/contact.html">Contact</a></p>
 </div>
-<!-- /cassian-cta-inject -->
-<p class="legal-note" style="max-width:60rem;margin:2rem auto 1rem;padding:0 1rem;font-size:0.85rem;color:#666;text-align:center;">Written with AI assistance. <a href="/tradespro-guide/privacy.html" style="color:inherit;">Privacy Policy</a> | <a href="/tradespro-guide/contact.html" style="color:inherit;">Contact</a></p>
+</footer>
+<script src="/assets/count.js" defer></script>
 </body>
 </html>

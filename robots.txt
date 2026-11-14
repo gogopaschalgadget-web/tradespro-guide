@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://gogopaschalgadget-web.github.io/tradespro-guide/sitemap.xml
+Sitemap: https://tradesprotools.com/sitemap.xml

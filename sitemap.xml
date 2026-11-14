@@ -1,111 +1,268 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://gogopaschalgadget-web.github.io/tradespro-guide/</loc>
-    <lastmod>2026-04-07</lastmod>
-    <changefreq>weekly</changefreq>
+    <loc>https://tradesprotools.com/about.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tradesprotools.com/answers/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tradesprotools.com/articles/electrical-safety-checklist.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tradesprotools.com/articles/how-to-choose-right-contractor.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tradesprotools.com/articles/hvac-maintenance-guide.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tradesprotools.com/articles/plumbing-basics-101.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tradesprotools.com/blog/5-signs-water-heater-failing.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tradesprotools.com/blog/bathroom-renovation-cost-2026.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tradesprotools.com/blog/best-electrical-tools-homeowners.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tradesprotools.com/blog/best-plumbing-tools-2026.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tradesprotools.com/blog/best-power-tools-electricians-2026.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tradesprotools.com/blog/contractor-bid-template.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tradesprotools.com/blog/diy-vs-hiring-plumber-cost.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tradesprotools.com/blog/electrical-work-cost-guide-2026.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tradesprotools.com/blog/electrician-business-insurance.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tradesprotools.com/blog/how-to-start-roofing-business-2026.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tradesprotools.com/blog/hvac-certifications-guide-2026.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tradesprotools.com/blog/hvac-contractor-marketing.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tradesprotools.com/blog/hvac-spring-maintenance-checklist.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tradesprotools.com/blog/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tradesprotools.com/blog/plumber-hourly-rates-2026.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tradesprotools.com/blog/plumber-pricing-guide.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tradesprotools.com/blog/roof-cost-2026.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tradesprotools.com/blog/spring-home-maintenance-checklist-2026.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tradesprotools.com/blog/spring-roofing-checklist-2026.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tradesprotools.com/category/contractor.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tradesprotools.com/category/electrical.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tradesprotools.com/category/hvac.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tradesprotools.com/category/plumbing.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tradesprotools.com/category/roofing.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tradesprotools.com/contact.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tradesprotools.com/</loc>
+    <lastmod>2026-11-14</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://gogopaschalgadget-web.github.io/tradespro-guide/blog/5-signs-water-heater-failing.html</loc>
-    <lastmod>2026-04-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://tradesprotools.com/privacy.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://gogopaschalgadget-web.github.io/tradespro-guide/blog/bathroom-renovation-cost-2026.html</loc>
-    <lastmod>2026-04-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://tradesprotools.com/prompts/content-creators.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://gogopaschalgadget-web.github.io/tradespro-guide/blog/best-electrical-tools-homeowners.html</loc>
-    <lastmod>2026-04-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://tradesprotools.com/prompts/contractors.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://gogopaschalgadget-web.github.io/tradespro-guide/blog/best-plumbing-tools-2026.html</loc>
-    <lastmod>2026-04-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://tradesprotools.com/prompts/electricians.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://gogopaschalgadget-web.github.io/tradespro-guide/blog/contractor-bid-template.html</loc>
-    <lastmod>2026-04-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://tradesprotools.com/prompts/hvac.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://gogopaschalgadget-web.github.io/tradespro-guide/blog/diy-vs-hiring-plumber-cost.html</loc>
-    <lastmod>2026-04-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://tradesprotools.com/prompts/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://gogopaschalgadget-web.github.io/tradespro-guide/blog/electrical-work-cost-guide-2026.html</loc>
-    <lastmod>2026-04-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://tradesprotools.com/prompts/plumbers.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://gogopaschalgadget-web.github.io/tradespro-guide/blog/electrician-business-insurance.html</loc>
-    <lastmod>2026-04-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://tradesprotools.com/prompts/realtors.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://gogopaschalgadget-web.github.io/tradespro-guide/blog/how-to-start-roofing-business-2026.html</loc>
-    <lastmod>2026-04-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://tradesprotools.com/prompts/roofers.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://gogopaschalgadget-web.github.io/tradespro-guide/blog/hvac-certifications-guide-2026.html</loc>
-    <lastmod>2026-04-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://tradesprotools.com/prompts/small-business.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://gogopaschalgadget-web.github.io/tradespro-guide/blog/hvac-contractor-marketing.html</loc>
-    <lastmod>2026-04-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://tradesprotools.com/prompts/teachers.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://gogopaschalgadget-web.github.io/tradespro-guide/blog/hvac-spring-maintenance-checklist.html</loc>
-    <lastmod>2026-04-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://tradesprotools.com/terms.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://gogopaschalgadget-web.github.io/tradespro-guide/blog/index.html</loc>
-    <lastmod>2026-04-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://tradesprotools.com/tools/electrical-tools.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://gogopaschalgadget-web.github.io/tradespro-guide/blog/plumber-hourly-rates-2026.html</loc>
-    <lastmod>2026-04-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://tradesprotools.com/tools/free-plumbing-checklist.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://gogopaschalgadget-web.github.io/tradespro-guide/blog/plumber-pricing-guide.html</loc>
-    <lastmod>2026-04-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://tradesprotools.com/tools/hvac-tools.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://gogopaschalgadget-web.github.io/tradespro-guide/blog/spring-home-maintenance-checklist-2026.html</loc>
-    <lastmod>2026-04-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://tradesprotools.com/tools/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://gogopaschalgadget-web.github.io/tradespro-guide/blog/spring-roofing-checklist-2026.html</loc>
-    <lastmod>2026-04-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://tradesprotools.com/tools/plumbing-cost-estimator.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tradesprotools.com/tools/plumbing-tools.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tradesprotools.com/tools/power-tools.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tradesprotools.com/tools/safety-gear.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tradesprotools.com/tools/software.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.6</priority>
   </url>
 </urlset>
