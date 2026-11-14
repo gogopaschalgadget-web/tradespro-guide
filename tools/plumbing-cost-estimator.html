@@ -472,7 +472,7 @@
             
             let toolHTML = '';
             jobData.tools.forEach(tool => {
-                const amazonUrl = `https://www.amazon.com/dp/${tool.asin}?tag=tradspro20-20`;
+                const amazonUrl = `https://www.amazon.com/dp/${tool.asin}`;
                 toolHTML += `<div class="tool-link"><a href="${amazonUrl}" target="_blank">${tool.name} (Amazon)</a></div>`;
             });
             
